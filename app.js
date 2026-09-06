@@ -283,6 +283,7 @@ function renderReader(){
   fitPageContent();
   applyZoom();
   syncPageJump();
+  syncModeButton();
   ensureMobilePageHeight();
   observeMobilePageHeights();
   requestAnimationFrame(()=>ensureMobilePageHeight());
@@ -342,7 +343,16 @@ async function go(delta){
 
 prev.onclick=()=>go(!isMobileView() && spread && current>1?-2:-1);
 next.onclick=()=>go(!isMobileView() && spread && current>1?2:1);
-$('#modeButton').onclick=()=>{if(animating)return;spread=!spread;$('#modeButton').textContent=spread?'Página dupla':'Página simples';renderReader()};
+const modeButton = $('#modeButton');
+function syncModeButton(){
+  if(!modeButton) return;
+  const mobile=isMobileView();
+  modeButton.disabled=mobile;
+  modeButton.textContent=mobile?'Página simples':(spread?'Página dupla':'Página simples');
+  modeButton.title=mobile?'Página dupla disponível em telas maiores':'Alternar entre página simples e página dupla';
+  modeButton.setAttribute('aria-disabled',mobile?'true':'false');
+}
+modeButton.onclick=()=>{if(animating || isMobileView())return;spread=!spread;syncModeButton();renderReader()};
 zoomOut.onclick=()=>setZoom(zoomLevel-0.1);
 zoomIn.onclick=()=>setZoom(zoomLevel+0.1);
 zoomReset.onclick=()=>setZoom(1);
@@ -459,6 +469,7 @@ document.querySelectorAll('.toc-link').forEach(a=>a.onclick=()=>{if(animating)re
 mobileMedia?.addEventListener?.('change',()=>{
   if(animating) return;
   current=Math.max(1,Math.min(pages.length,current));
+  syncModeButton();
   renderReader();
 });
 

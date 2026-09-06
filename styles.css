@@ -674,3 +674,13 @@ body.is-fullscreen .reader{padding-top:94px;min-height:calc(100vh - 50px)}
   .stellar-audio-meta{display:none}
   .stellar-volume input[type=range]{width:58px}
 }
+
+
+/* Restore page-mode control: keep it visible in the toolbar. */
+@media (min-width:701px){
+  .actions #modeButton{display:inline-flex!important;align-items:center;justify-content:center}
+}
+@media (max-width:700px){
+  .actions #modeButton{display:inline-flex!important;align-items:center;justify-content:center;opacity:.58}
+  .actions #modeButton:disabled{opacity:.48;cursor:not-allowed}
+}
