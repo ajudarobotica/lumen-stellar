@@ -37,6 +37,24 @@
         <input id="pageJumpInput" type="number" min="1" step="1" inputmode="numeric" aria-label="Número da página" placeholder="Pág." />
         <button id="pageJumpGo" class="ghost" aria-label="Ir para a página digitada">Ir</button>
       </div>
+      <div class="stellar-audio-player" id="stellarAudioPlayer" role="group" aria-label="Player da música Seja Luz">
+        <audio id="stellarAudio" src="assets/audio/seja-luz.mp3" preload="metadata" loop></audio>
+        <span class="stellar-audio-star" aria-hidden="true">✦</span>
+        <div class="stellar-audio-meta">
+          <small>TRILHA STELLAR</small>
+          <strong>Seja Luz</strong>
+        </div>
+        <button id="audioToggle" class="audio-round" type="button" aria-label="Reproduzir Seja Luz" aria-pressed="false">
+          <span id="audioToggleIcon" aria-hidden="true">▶</span>
+        </button>
+        <div class="stellar-volume" aria-label="Volume da música">
+          <button id="audioMute" class="audio-mute" type="button" aria-label="Silenciar música" aria-pressed="false">♪</button>
+          <label class="sr-only" for="audioVolume">Volume</label>
+          <input id="audioVolume" type="range" min="0" max="100" step="1" value="50" aria-label="Volume da música" />
+          <span id="audioVolumeValue" class="audio-volume-value" aria-hidden="true">50%</span>
+        </div>
+        <span class="stellar-audio-progress" aria-hidden="true"><i id="stellarAudioProgress"></i></span>
+      </div>
       <div class="zoom-controls" role="group" aria-label="Zoom do livro">
         <button id="zoomOut" class="ghost zoom-btn" aria-label="Diminuir zoom">−</button>
         <button id="zoomReset" class="ghost zoom-value" aria-label="Redefinir zoom">100%</button>

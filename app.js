@@ -25,6 +25,14 @@ const zoomReset = $('#zoomReset');
 const fullscreenButton = $('#fullscreenButton');
 const pageJumpInput = $('#pageJumpInput');
 const pageJumpGo = $('#pageJumpGo');
+const stellarAudioPlayer = $('#stellarAudioPlayer');
+const stellarAudio = $('#stellarAudio');
+const audioToggle = $('#audioToggle');
+const audioToggleIcon = $('#audioToggleIcon');
+const audioMute = $('#audioMute');
+const audioVolume = $('#audioVolume');
+const audioVolumeValue = $('#audioVolumeValue');
+const stellarAudioProgress = $('#stellarAudioProgress');
 
 const esc = s => String(s ?? '').replace(/[&<>\"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;'}[c]));
 const stripMarks = s => s.replace(/^[✦★⭐🌌🌟✨💜⚙🔥☀🤝🌍]\s*/u,'').trim();
@@ -366,6 +374,66 @@ pageJumpInput.addEventListener('input',()=>{
   const digits = pageJumpInput.value.replace(/[^0-9]/g,'');
   if(pageJumpInput.value !== digits) pageJumpInput.value = digits;
 });
+
+// ---------------------------------------------------------
+// Trilha Stellar — player persistente, com loop e volume
+// ---------------------------------------------------------
+const savedAudioVolumeRaw = localStorage.getItem('lumenAudioVolumeV2');
+const savedAudioVolume = savedAudioVolumeRaw === null ? NaN : Number(savedAudioVolumeRaw);
+const initialAudioVolume = Number.isFinite(savedAudioVolume) ? Math.max(0, Math.min(1, savedAudioVolume)) : 0.5;
+stellarAudio.volume = initialAudioVolume;
+audioVolume.value = String(Math.round(initialAudioVolume * 100));
+audioVolumeValue.textContent = `${Math.round(initialAudioVolume * 100)}%`;
+
+function updateAudioUI(){
+  const playing = !stellarAudio.paused && !stellarAudio.ended;
+  stellarAudioPlayer.classList.toggle('is-playing', playing);
+  audioToggleIcon.textContent = playing ? 'Ⅱ' : '▶';
+  audioToggle.setAttribute('aria-label', playing ? 'Pausar Seja Luz' : 'Reproduzir Seja Luz');
+  audioToggle.setAttribute('aria-pressed', String(playing));
+
+  const silent = stellarAudio.muted || stellarAudio.volume === 0;
+  audioMute.textContent = silent ? '×' : '♪';
+  audioMute.setAttribute('aria-label', silent ? 'Ativar som' : 'Silenciar música');
+  audioMute.setAttribute('aria-pressed', String(silent));
+
+  const duration = Number.isFinite(stellarAudio.duration) && stellarAudio.duration > 0 ? stellarAudio.duration : 0;
+  const pct = duration ? Math.max(0, Math.min(100, (stellarAudio.currentTime / duration) * 100)) : 0;
+  stellarAudioProgress.style.width = `${pct}%`;
+}
+
+audioToggle.addEventListener('click', async ()=>{
+  try{
+    if(stellarAudio.paused) await stellarAudio.play();
+    else stellarAudio.pause();
+  }catch(err){
+    console.warn('Não foi possível iniciar o áudio:', err);
+  }
+  updateAudioUI();
+});
+
+audioVolume.addEventListener('input', ()=>{
+  const value = Math.max(0, Math.min(100, Number(audioVolume.value) || 0));
+  stellarAudio.volume = value / 100;
+  if(value > 0) stellarAudio.muted = false;
+  localStorage.setItem('lumenAudioVolumeV2', String(stellarAudio.volume));
+  audioVolumeValue.textContent = `${Math.round(value)}%`;
+  updateAudioUI();
+});
+
+audioMute.addEventListener('click', ()=>{
+  stellarAudio.muted = !stellarAudio.muted;
+  updateAudioUI();
+});
+
+stellarAudio.addEventListener('play', updateAudioUI);
+stellarAudio.addEventListener('pause', updateAudioUI);
+stellarAudio.addEventListener('volumechange', updateAudioUI);
+stellarAudio.addEventListener('timeupdate', updateAudioUI);
+stellarAudio.addEventListener('loadedmetadata', updateAudioUI);
+stellarAudio.addEventListener('ended', updateAudioUI);
+updateAudioUI();
+
 
 document.addEventListener('keydown',e=>{
   if(e.key==='ArrowLeft'){e.preventDefault();prev.click()}

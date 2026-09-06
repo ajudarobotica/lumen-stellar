@@ -546,3 +546,131 @@ body.is-fullscreen .reader{padding-top:94px;min-height:calc(100vh - 50px)}
   .book-page:not(.kind-cover){overflow:hidden!important}
   .book-page:not(.kind-cover) .page-inner{overflow:visible!important}
 }
+
+
+/* =========================================================
+   Trilha Stellar — player de áudio celestial
+   Música: Seja Luz • reprodução por gesto • loop contínuo
+   ========================================================= */
+.stellar-audio-player{
+  --audio-progress:0%;
+  position:relative;display:flex;align-items:center;gap:8px;min-height:42px;
+  padding:5px 10px 7px;border:1px solid rgba(235,209,141,.22);border-radius:12px;
+  background:
+    radial-gradient(circle at 12% 30%,rgba(94,137,255,.18),transparent 30%),
+    linear-gradient(135deg,rgba(17,12,39,.92),rgba(30,14,50,.9));
+  box-shadow:inset 0 0 0 1px rgba(255,255,255,.025),0 6px 20px rgba(0,0,0,.18);
+  color:#f2e9ff;overflow:hidden;flex:0 0 auto;
+}
+.stellar-audio-player::before{
+  content:"";position:absolute;inset:0;pointer-events:none;opacity:.7;
+  background:radial-gradient(circle at 20% 20%,rgba(255,255,255,.9) 0 1px,transparent 1.5px),radial-gradient(circle at 72% 66%,rgba(96,198,255,.8) 0 1px,transparent 1.5px);background-size:56px 56px,78px 78px;
+}
+.stellar-audio-player>*{position:relative;z-index:1}
+.stellar-audio-star{font-size:18px;color:#f0cf77;text-shadow:0 0 12px rgba(109,162,255,.6);transition:transform .35s ease,filter .35s ease}
+.stellar-audio-player.is-playing .stellar-audio-star{animation:stellarPulse 2.2s ease-in-out infinite;filter:drop-shadow(0 0 8px rgba(86,172,255,.7))}
+.stellar-audio-meta{display:flex;flex-direction:column;min-width:72px;line-height:1.05}
+.stellar-audio-meta small{font-size:7px;letter-spacing:.14em;color:#bfa5d1}
+.stellar-audio-meta strong{margin-top:3px;font-family:"Palatino Linotype",Palatino,Georgia,serif;font-size:11px;letter-spacing:.04em;color:#f5e6b8;white-space:nowrap}
+.stellar-audio-player button{display:grid;place-items:center;border:1px solid rgba(232,202,125,.28);background:rgba(255,255,255,.055);color:#fff1ca;cursor:pointer}
+.audio-round{width:32px;height:32px;min-width:32px;padding:0!important;border-radius:50%!important;font-size:12px!important;line-height:1}
+.audio-mute{width:28px;height:28px;min-width:28px;padding:0!important;border-radius:50%!important;font-size:15px!important}
+.stellar-audio-player button:focus-visible,.stellar-volume input:focus-visible{outline:2px solid #efd27c;outline-offset:2px}
+.stellar-volume{display:flex;align-items:center;gap:6px;min-width:0}
+.stellar-volume input[type=range]{width:84px;accent-color:#d3ad59;cursor:pointer}
+.audio-volume-value{min-width:30px;color:#b9aac6;font-size:9px;font-variant-numeric:tabular-nums;text-align:right}
+.stellar-audio-progress{position:absolute!important;left:0;right:0;bottom:0;height:2px;background:rgba(255,255,255,.06);z-index:2!important}
+.stellar-audio-progress i{display:block;width:0;height:100%;background:linear-gradient(90deg,#7a55e9,#4ed7ff,#efd071);box-shadow:0 0 8px rgba(85,193,255,.45);transition:width .18s linear}
+@keyframes stellarPulse{0%,100%{transform:scale(1);opacity:.85}50%{transform:scale(1.18);opacity:1}}
+
+@media(max-width:1180px){
+  .stellar-audio-meta small{display:none}
+  .stellar-audio-meta{min-width:54px}
+  .stellar-volume input[type=range]{width:68px}
+  .audio-volume-value{display:none}
+}
+
+@media(max-width:700px){
+  .stellar-audio-player{min-height:38px;padding:4px 8px 6px;gap:6px;border-radius:10px}
+  .stellar-audio-star{font-size:16px}
+  .stellar-audio-meta{min-width:58px}
+  .stellar-audio-meta strong{font-size:10px}
+  .audio-round{width:34px!important;height:34px!important;min-width:34px!important}
+  .audio-mute{width:34px!important;height:34px!important;min-width:34px!important}
+  .stellar-volume{gap:5px}
+  .stellar-volume input[type=range]{width:74px;height:32px;touch-action:pan-x}
+  .audio-volume-value{display:none}
+}
+
+@media(max-width:380px){
+  .stellar-audio-meta{min-width:50px}
+  .stellar-volume input[type=range]{width:62px}
+}
+
+@media(prefers-reduced-motion:reduce){.stellar-audio-player.is-playing .stellar-audio-star{animation:none}}
+@media print{.stellar-audio-player{display:none!important}}
+
+
+/* =========================================================
+   Toolbar desktop — mantém todos os controles em uma linha
+   mesmo após a inclusão do player de áudio.
+   ========================================================= */
+@media (min-width:701px){
+  .topbar{
+    height:72px;
+    min-height:72px;
+    display:flex;
+    align-items:center;
+    gap:16px;
+    padding:0 20px;
+    overflow:hidden;
+  }
+  .brand{flex:0 0 auto;min-width:0}
+  .actions{
+    flex:1 1 auto;
+    min-width:0;
+    display:flex;
+    flex-wrap:nowrap!important;
+    justify-content:flex-end;
+    align-items:center;
+    gap:7px;
+    overflow-x:auto;
+    overflow-y:hidden;
+    scrollbar-width:none;
+    -webkit-overflow-scrolling:touch;
+    padding:3px 0;
+  }
+  .actions::-webkit-scrollbar{display:none}
+  .actions>button,.actions>.page-jump,.actions>.stellar-audio-player,.actions>.zoom-controls{flex:0 0 auto}
+  .actions button{white-space:nowrap}
+}
+
+/* Compacta a barra em notebooks e janelas desktop menores sem quebrar linha. */
+@media (min-width:701px) and (max-width:1750px){
+  .topbar{padding-left:14px;padding-right:14px;gap:10px}
+  .brand{gap:8px}
+  .brand strong{font-size:13px;letter-spacing:.12em}
+  .brand small{font-size:9px}
+  .actions{gap:5px}
+  .actions>button{padding:8px 10px;font-size:12px}
+  .page-jump input{width:54px;min-width:54px;padding:8px 6px;font-size:12px}
+  .page-jump button{padding:8px 8px;font-size:12px}
+  .zoom-controls .zoom-btn{min-width:32px;padding:8px}
+  .zoom-controls .zoom-value{min-width:54px;padding:8px 6px;font-size:12px}
+  .stellar-audio-player{min-height:38px;padding:4px 8px 6px;gap:6px;border-radius:10px}
+  .stellar-audio-star{font-size:15px}
+  .stellar-audio-meta{min-width:52px}
+  .stellar-audio-meta small{display:none}
+  .stellar-audio-meta strong{font-size:10px}
+  .audio-round{width:30px;height:30px;min-width:30px}
+  .audio-mute{width:28px;height:28px;min-width:28px}
+  .stellar-volume input[type=range]{width:64px}
+  .audio-volume-value{display:none}
+}
+
+@media (min-width:701px) and (max-width:1300px){
+  .brand small{display:none}
+  .actions #modeButton{display:none}
+  .stellar-audio-meta{display:none}
+  .stellar-volume input[type=range]{width:58px}
+}

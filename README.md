@@ -25,3 +25,8 @@ A URL normalmente ficará no formato:
 ## Favicon
 
 O pacote já inclui `favicon.ico`, `favicon.svg`, `favicon-32x32.png`, `apple-touch-icon.png` e ícones 192/512 para o manifest.
+
+
+## Trilha sonora
+
+O site inclui a faixa `assets/audio/seja-luz.mp3`. O player é iniciado somente por interação do usuário, toca em loop e oferece controle de volume em desktop e mobile.
