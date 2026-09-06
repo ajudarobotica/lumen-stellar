@@ -6,6 +6,8 @@ let spread = params.get('single') !== '1';
 let zoomLevel = Math.max(0.6, Math.min(1.5, Number(localStorage.getItem('lumenZoom') || 1)));
 let animating = false;
 const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
+const mobileMedia = window.matchMedia?.('(max-width: 700px)');
+const isMobileView = () => mobileMedia?.matches ?? window.innerWidth <= 700;
 
 const $ = s => document.querySelector(s);
 const stage = $('#stage');
@@ -158,7 +160,8 @@ function renderPage(page){
 }
 
 function visiblePages(){
-  if(!spread || current===1) return [current];
+  // Mobile uses a true single-page reading mode so no page is hidden or skipped.
+  if(isMobileView() || !spread || current===1) return [current];
   const left=current%2===0?current:current-1; return [left,Math.min(left+1,pages.length)].filter((v,i,a)=>a.indexOf(v)===i)
 }
 function applyZoom(){
@@ -180,7 +183,7 @@ function setZoom(value){zoomLevel=value;applyZoom()}
 
 function normalizeTargetPage(value){
   let target = Math.max(1, Math.min(pages.length, Number(value) || 1));
-  if(spread && target > 1 && target % 2 === 1) target -= 1;
+  if(!isMobileView() && spread && target > 1 && target % 2 === 1) target -= 1;
   return target;
 }
 
@@ -222,6 +225,7 @@ function fitPageContent(root=stage){
 function renderReader(){
   const nums=visiblePages();
   stage.classList.toggle('spread',nums.length===2);
+  stage.classList.toggle('mobile-single',isMobileView());
   stage.innerHTML=nums.map(n=>`<div class="page-shell" data-page="${n}">${renderPage(pages[n-1])}</div>`).join('');
   indicator.textContent=nums.length===1?`Página ${nums[0]} de ${pages.length}`:`Páginas ${nums[0]}–${nums[1]} de ${pages.length}`;
   progress.style.width=`${(Math.max(...nums)/pages.length)*100}%`;
@@ -283,8 +287,8 @@ async function go(delta){
   window.scrollTo({top:0,behavior:'smooth'});
 }
 
-prev.onclick=()=>go(spread&&current>1?-2:-1);
-next.onclick=()=>go(spread&&current>1?2:1);
+prev.onclick=()=>go(!isMobileView() && spread && current>1?-2:-1);
+next.onclick=()=>go(!isMobileView() && spread && current>1?2:1);
 $('#modeButton').onclick=()=>{if(animating)return;spread=!spread;$('#modeButton').textContent=spread?'Página dupla':'Página simples';renderReader()};
 zoomOut.onclick=()=>setZoom(zoomLevel-0.1);
 zoomIn.onclick=()=>setZoom(zoomLevel+0.1);
@@ -337,6 +341,13 @@ $('#tocButton').onclick=openToc;$('#tocClose').onclick=closeToc;scrim.onclick=cl
 const chapterPages=pages.filter(p=>p.kind==='chapter');
 $('#tocList').innerHTML=chapterPages.map(p=>`<a class="toc-link" data-page="${p.number}"><span>${esc(p.chapterLabel.replace('CAPÍTULO ',''))}</span><div><strong>${esc(p.title)}</strong><small>${esc(p.subtitle)}</small></div></a>`).join('');
 document.querySelectorAll('.toc-link').forEach(a=>a.onclick=()=>{if(animating)return;current=normalizeTargetPage(Number(a.dataset.page));closeToc();renderReader()});
+
+// Re-render when crossing the mobile breakpoint so navigation becomes page-by-page.
+mobileMedia?.addEventListener?.('change',()=>{
+  if(animating) return;
+  current=Math.max(1,Math.min(pages.length,current));
+  renderReader();
+});
 
 if(params.get('print')==='1'){
   document.body.classList.add('print-mode');

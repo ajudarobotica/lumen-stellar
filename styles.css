@@ -242,3 +242,180 @@ body.is-fullscreen .reader{padding-top:94px;min-height:calc(100vh - 50px)}
 /* Pages 16 and 53 — use the cover star figure */
 .page-number-16 .art-frame,.page-number-53 .art-frame{display:grid;place-items:center;background:radial-gradient(circle at 50% 42%,rgba(95,127,255,.22),transparent 24%),radial-gradient(circle at 50% 50%,rgba(250,219,115,.10),transparent 18%),linear-gradient(135deg,#120c24,#061126 74%)}
 .page-number-16 .art-frame img,.page-number-53 .art-frame img{width:100%;height:100%;object-fit:contain;padding:6mm;filter:drop-shadow(0 0 22px rgba(108,155,255,.28)) drop-shadow(0 0 12px rgba(238,203,110,.18))}
+
+
+/* =========================================================
+   Mobile reading mode — adaptive-height celestial pages
+   Keeps the visual identity while allowing text-heavy pages
+   to grow vertically instead of being clipped on phones.
+   ========================================================= */
+@media (max-width:700px){
+  :root{
+    --page-w:min(94vw,480px);
+    --page-h:auto;
+    --mobile-page-min-h:min(133.4vw,681px);
+  }
+
+  html,body{min-height:100%;overflow-x:hidden}
+  body{padding-bottom:env(safe-area-inset-bottom,0)}
+
+  .topbar{
+    position:sticky;top:0;height:auto;min-height:0;
+    display:grid;grid-template-columns:1fr auto;
+    padding:8px 10px calc(7px + env(safe-area-inset-top,0));
+    gap:7px 8px;align-items:center;
+  }
+  .brand{min-width:0;gap:8px}
+  .brand strong{font-size:11px;white-space:nowrap}
+  .brand div small{display:none}
+  .brand-star{font-size:18px}
+  .actions{
+    grid-column:1/-1;width:100%;display:flex;flex-wrap:nowrap;
+    justify-content:flex-start;gap:5px;overflow-x:auto;overflow-y:hidden;
+    padding:1px 0 3px;scrollbar-width:none;-webkit-overflow-scrolling:touch;
+  }
+  .actions::-webkit-scrollbar{display:none}
+  .actions #tocButton{display:inline-flex}
+  .actions #modeButton{display:none}
+  .actions button{white-space:nowrap}
+  .actions #fullscreenButton{font-size:11px;padding:7px 9px}
+  .zoom-controls,.page-jump{flex:0 0 auto}
+  .zoom-controls .zoom-btn{min-width:30px;padding:7px}
+  .zoom-controls .zoom-value{min-width:48px;padding:7px 6px;font-size:11px}
+  .page-jump input{width:52px;min-width:52px;padding:7px 6px;font-size:11px}
+  .page-jump button{padding:7px 8px;font-size:11px}
+
+  .reader{
+    position:relative;display:block;min-height:calc(100vh - 120px);
+    padding:12px 3vw 24px;overflow:visible;
+  }
+  .book-stage,.book-stage.spread{
+    width:100%;display:flex;justify-content:center;align-items:flex-start;
+    gap:0;min-width:0;overflow:visible;
+  }
+  .book-stage.spread .page-shell:nth-child(2){display:none}
+  .page-shell{width:var(--page-w);max-width:480px;filter:drop-shadow(0 16px 28px rgba(0,0,0,.34))}
+
+  .book-page{
+    width:100%;height:auto;min-height:var(--mobile-page-min-h);
+    overflow:hidden;font-size:100%;
+  }
+  .book-page:not(.kind-cover){box-shadow:0 16px 34px rgba(0,0,0,.42)}
+  .page-inner,
+  .kind-preface .page-inner,
+  .kind-map .page-inner,
+  .page-number-42 .page-inner,
+  .kind-manifesto .page-inner{
+    height:auto;min-height:var(--mobile-page-min-h);
+    padding:9vw 7.5vw 8vw;
+  }
+
+  /* Let text-heavy templates expand naturally. */
+  .kind-preface .page-inner,.kind-map .page-inner,.page-number-42 .page-inner{padding-top:8vw}
+  .page-inner.content-fitted{transform:none!important;--fit-scale:1!important}
+  .footer-line{margin-top:7vw;padding-top:3vw;gap:8px;flex-wrap:wrap}
+  .footer-line span:first-child{max-width:65%}
+
+  .page-title,.kind-preface .page-title,.kind-map .page-title,.page-number-42 .statement-card .page-title{
+    font-size:clamp(21px,6.3vw,28px);line-height:1.08;
+  }
+  .page-kicker,.page-subtitle{font-size:clamp(10px,2.8vw,13px)}
+  .body-copy,.kind-preface .body-copy,.page-number-42 .statement-card .body-copy{
+    font-size:clamp(13px,3.65vw,16px);line-height:1.52;text-align:left;margin-bottom:3.4vw;
+  }
+  .lead,.kind-preface .lead{font-size:clamp(14px,4vw,17px);line-height:1.5}
+  .bullet,.kind-preface .bullet,.page-number-42 .statement-card .bullet{
+    font-size:clamp(12.5px,3.5vw,15px);line-height:1.42;margin:1.5vw 0;
+  }
+  .quote-box,.kind-preface .quote-box{
+    margin:4vw 1vw;padding:4vw 5vw;font-size:clamp(13px,3.7vw,16px);line-height:1.46;
+  }
+
+  .celestial-map-list{gap:1.7vw;margin-top:2vw}
+  .kind-map .map-item{grid-template-columns:6vw 1fr;gap:1.3vw;padding-bottom:1.8vw}
+  .kind-map .map-star{font-size:13px}
+  .kind-map .map-text{font-size:clamp(12px,3.35vw,15px);line-height:1.38}
+
+  .flow{gap:1.7vw;margin:3vw 0}
+  .flow-node{padding:2.2vw 3vw;font-size:clamp(12px,3.3vw,14px)}
+  .flow-arrow{font-size:16px}
+  .concept-grid{grid-template-columns:1fr;gap:3vw;margin:4vw 0}
+  .concept-card{min-height:0;padding:5vw 4vw}
+  .concept-card h3{font-size:clamp(15px,4vw,18px);margin-bottom:2vw}
+  .concept-card p{font-size:clamp(12.5px,3.5vw,15px);line-height:1.45}
+
+  .ideal-number{width:11vw;height:11vw;max-width:46px;max-height:46px}
+  .kind-ideal .page-title{font-size:clamp(20px,5.7vw,26px)}
+  .ideal-promise{font-size:clamp(13px,3.7vw,16px);margin:3vw 1vw 5vw}
+  .ideal-practice{margin-top:4vw;padding-top:4vw}
+
+  .art-layout{height:auto;grid-template-rows:auto auto auto;gap:4vw}
+  .art-frame{height:min(72vw,360px);min-height:240px}
+  .kind-art .body-copy{font-size:clamp(12.5px,3.45vw,15px);line-height:1.46}
+  .kind-art .quote-box{font-size:clamp(12.5px,3.5vw,15px)}
+
+  .glossary-list{gap:3vw}
+  .glossary-entry{padding-left:3vw}
+  .glossary-entry h3{font-size:clamp(14px,3.8vw,17px)}
+  .glossary-entry p{font-size:clamp(12.5px,3.45vw,15px);line-height:1.45}
+
+  .statement-card,.page-number-42 .statement-card{margin:0;padding:5vw 4.5vw}
+  .statement-card .statement-quote{font-size:clamp(15px,4.15vw,18px);line-height:1.5}
+  .statement-card .body-copy{margin-top:3vw}
+  .taxonomy-block{gap:3vw}
+  .taxonomy-row{padding:4vw}
+  .taxonomy-row p{font-size:clamp(12.5px,3.5vw,15px);line-height:1.45}
+
+  .program-banner{padding:4vw;margin-bottom:4vw}
+  .program-banner strong{font-size:clamp(16px,4.4vw,19px)}
+  .program-tags span{font-size:11px;padding:1.3vw 2.3vw}
+
+  .callout-core{margin:auto 0}
+  .callout-core .symbol{font-size:42px}
+  .callout-core h1{font-size:clamp(24px,7vw,32px)}
+  .callout-core p{font-size:clamp(14px,3.9vw,17px);line-height:1.55}
+  .callout-core .central-quote{font-size:clamp(16px,4.5vw,20px);margin-top:6vw}
+
+  .culture-list{gap:3vw}
+  .culture-item{grid-template-columns:6vw 1fr;gap:2vw;font-size:clamp(12.5px,3.5vw,15px);line-height:1.45}
+  .vision-stars{grid-template-columns:1fr;gap:3vw}
+  .vision-star{padding:4vw;font-size:clamp(12px,3.4vw,15px)}
+
+  /* Chapter/quote/closing pages retain a majestic portrait proportion. */
+  .kind-chapter .page-inner,.kind-quote .page-inner,.kind-closing .page-inner{
+    min-height:var(--mobile-page-min-h);justify-content:center;padding:10vw 8vw;
+  }
+  .chapter-compass{width:28vw;height:28vw;max-width:120px;max-height:120px;margin-bottom:5vw}
+  .chapter-label{font-size:11px;margin-bottom:3vw}
+  .chapter-title{font-size:clamp(28px,8.2vw,38px)}
+  .chapter-subtitle{font-size:clamp(13px,3.7vw,16px);margin:4vw 0 5vw}
+  .chapter-quote{font-size:clamp(13px,3.6vw,16px);line-height:1.5;max-width:100%}
+  .quote-compass{width:24vw;height:24vw;max-width:104px;max-height:104px;margin-bottom:6vw}
+  .quote-major{font-size:clamp(20px,5.8vw,27px);line-height:1.48}
+
+  .manifesto-title{font-size:clamp(24px,7vw,32px);margin:2vw 0 5vw}
+  .manifesto-lines{gap:3vw}
+  .manifesto-line{font-size:clamp(12.5px,3.5vw,15px);line-height:1.48;padding-left:3vw}
+  .closing-star{width:32vw;height:32vw;max-width:140px;max-height:140px;margin-bottom:6vw}
+  .closing-title{font-size:clamp(30px,8.5vw,40px)}
+  .closing-sub{font-size:clamp(13px,3.7vw,16px);max-width:100%}
+  .closing-tag{font-size:clamp(12px,3.4vw,15px)}
+
+  .kind-cover{width:100%;height:auto;min-height:0;aspect-ratio:148/210}
+  .kind-cover .cover-art{width:100%;height:100%;object-fit:cover}
+
+  .nav{
+    position:fixed;z-index:28;top:52%;transform:translateY(-50%);
+    width:34px;height:58px;border-radius:12px;font-size:34px;
+    background:rgba(8,7,20,.72);backdrop-filter:blur(10px);
+  }
+  .nav.prev{left:3px}.nav.next{right:3px}
+  .reader-footer{height:auto;min-height:46px;padding:8px 12px;position:relative;z-index:22}
+  .reader-footer span:last-child{display:none}
+}
+
+@media (max-width:380px){
+  .page-inner,.kind-preface .page-inner,.kind-map .page-inner,.page-number-42 .page-inner,.kind-manifesto .page-inner{padding-left:7vw;padding-right:7vw}
+  .footer-line span:first-child{display:none}
+  .topbar{padding-left:8px;padding-right:8px}
+}
