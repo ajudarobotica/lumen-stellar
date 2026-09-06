@@ -419,3 +419,130 @@ body.is-fullscreen .reader{padding-top:94px;min-height:calc(100vh - 50px)}
   .footer-line span:first-child{display:none}
   .topbar{padding-left:8px;padding-right:8px}
 }
+
+
+/* =========================================================
+   Mobile hardening v2 — no clipped text/footer + safe arrows
+   ========================================================= */
+@media (max-width:700px){
+  /* The page must grow with its content. Do not clip the lower lines/footer. */
+  .book-page:not(.kind-cover){
+    height:auto!important;
+    min-height:var(--mobile-page-min-h)!important;
+    overflow:visible!important;
+    contain:none!important;
+  }
+  .book-page:not(.kind-cover) .page-inner{
+    height:auto!important;
+    min-height:var(--mobile-page-min-h)!important;
+    overflow:visible!important;
+    padding-bottom:10vw!important;
+  }
+  .kind-cover{overflow:hidden!important}
+
+  /* Prevent long strings/labels from escaping the page width. */
+  .page-inner,.page-inner *{max-width:100%;overflow-wrap:anywhere;word-break:normal}
+  .flow,.concept-grid,.taxonomy-block,.culture-list,.glossary-list,.manifesto-lines,.celestial-map-list{min-width:0}
+
+  /* Keep the internal footer in normal flow and give it breathing room. */
+  .footer-line{
+    position:relative!important;
+    width:100%!important;
+    flex:0 0 auto!important;
+    margin-top:7vw!important;
+    padding-top:3vw!important;
+    padding-bottom:1.5vw!important;
+    min-height:28px;
+  }
+
+  /* Navigation arrows are viewport controls, always above the book. */
+  .nav{
+    display:flex!important;
+    visibility:visible!important;
+    align-items:center!important;
+    justify-content:center!important;
+    position:fixed!important;
+    z-index:999!important;
+    top:56%!important;
+    transform:translateY(-50%)!important;
+    width:40px!important;
+    height:64px!important;
+    padding:0!important;
+    border:1px solid rgba(239,211,145,.42)!important;
+    background:rgba(9,7,23,.88)!important;
+    color:#f4e8ff!important;
+    box-shadow:0 8px 24px rgba(0,0,0,.48),0 0 18px rgba(114,82,221,.18)!important;
+    opacity:1!important;
+    pointer-events:auto!important;
+  }
+  .nav.prev{left:max(8px,env(safe-area-inset-left))!important}
+  .nav.next{right:max(8px,env(safe-area-inset-right))!important}
+  .nav:disabled{opacity:.65!important;pointer-events:none!important}
+
+  /* Reserve a little side breathing room behind overlay navigation. */
+  .reader{padding-left:4vw!important;padding-right:4vw!important;padding-bottom:34px!important}
+  .page-shell{max-width:92vw!important}
+}
+
+@media (max-width:380px){
+  .nav{width:36px!important;height:58px!important;font-size:32px!important}
+  .nav.prev{left:max(5px,env(safe-area-inset-left))!important}
+  .nav.next{right:max(5px,env(safe-area-inset-right))!important}
+  .footer-line{font-size:10px!important}
+}
+
+@media (max-width:700px){
+  /* Zoom above 100% remains usable on phones: pan inside the reader instead of clipping the page. */
+  .reader{overflow-x:auto!important;overscroll-behavior-x:contain;-webkit-overflow-scrolling:touch}
+  .book-stage{min-width:100%!important}
+}
+
+
+/* =========================================================
+   Mobile frame hardening v3 — ornamental frame follows the
+   real rendered page height instead of a fixed A5 proportion.
+   ========================================================= */
+@media (max-width:700px){
+  .book-page:not(.kind-cover){
+    box-sizing:border-box!important;
+  }
+
+  /* Use the frame as a scalable border on mobile. Corners keep their
+     proportions while the vertical edges grow with long content. */
+  .book-page:not(.kind-cover)::after{
+    content:""!important;
+    position:absolute!important;
+    inset:0!important;
+    width:100%!important;
+    height:100%!important;
+    box-sizing:border-box!important;
+    pointer-events:none!important;
+    z-index:20!important;
+    background:none!important;
+    opacity:.94!important;
+    border:18px solid transparent!important;
+    border-image-source:url('assets/frame.svg')!important;
+    border-image-slice:78!important;
+    border-image-width:18px!important;
+    border-image-repeat:stretch!important;
+  }
+
+  /* A continuous inner gold line ensures the frame always visually closes
+     at the actual bottom of dynamically tall pages. */
+  .book-page:not(.kind-cover)::before{
+    content:"";
+    position:absolute;
+    inset:16px;
+    z-index:19;
+    pointer-events:none;
+    border:1px solid rgba(203,164,86,.54);
+    border-radius:7px;
+    box-shadow:
+      inset 0 0 0 1px rgba(104,75,37,.28),
+      0 0 12px rgba(216,180,103,.06);
+  }
+
+  /* Do not let content visually leave the dynamic page surface. */
+  .book-page:not(.kind-cover){overflow:hidden!important}
+  .book-page:not(.kind-cover) .page-inner{overflow:visible!important}
+}

@@ -8,6 +8,7 @@ let animating = false;
 const reduceMotion = window.matchMedia?.('(prefers-reduced-motion: reduce)').matches ?? false;
 const mobileMedia = window.matchMedia?.('(max-width: 700px)');
 const isMobileView = () => mobileMedia?.matches ?? window.innerWidth <= 700;
+let mobilePageResizeObserver = null;
 
 const $ = s => document.querySelector(s);
 const stage = $('#stage');
@@ -203,6 +204,45 @@ function syncPageJump(){
   pageJumpInput.value = String(nums[0]);
 }
 
+
+function syncOneMobilePageHeight(page){
+  if(!isMobileView() || !page || page.classList.contains('kind-cover')) return;
+  const inner=page.querySelector('.page-inner');
+  if(!inner) return;
+
+  // Measure the content itself and then give the page an explicit rendered
+  // height. This makes the page background, ornamental frame and footer
+  // share exactly the same bottom edge on mobile browsers.
+  page.style.height='auto';
+  page.style.minHeight='0';
+  inner.style.height='auto';
+
+  const cssMin=parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--mobile-page-min-h')) || 0;
+  const needed=Math.ceil(Math.max(inner.scrollHeight, inner.getBoundingClientRect().height, cssMin));
+  if(needed>0){
+    page.style.height=`${needed}px`;
+    page.style.minHeight=`${needed}px`;
+  }
+}
+
+function ensureMobilePageHeight(root=stage){
+  if(!isMobileView()) return;
+  root.querySelectorAll('.book-page:not(.kind-cover)').forEach(syncOneMobilePageHeight);
+}
+
+function observeMobilePageHeights(root=stage){
+  mobilePageResizeObserver?.disconnect?.();
+  if(!isMobileView() || typeof ResizeObserver==='undefined') return;
+  mobilePageResizeObserver=new ResizeObserver(entries=>{
+    for(const entry of entries){
+      const inner=entry.target;
+      const page=inner.closest('.book-page');
+      if(page) requestAnimationFrame(()=>syncOneMobilePageHeight(page));
+    }
+  });
+  root.querySelectorAll('.book-page:not(.kind-cover) .page-inner').forEach(inner=>mobilePageResizeObserver.observe(inner));
+}
+
 function fitPageContent(root=stage){
   root.querySelectorAll('.book-page .page-inner').forEach(inner=>{
     inner.classList.remove('content-fitted');
@@ -235,6 +275,11 @@ function renderReader(){
   fitPageContent();
   applyZoom();
   syncPageJump();
+  ensureMobilePageHeight();
+  observeMobilePageHeights();
+  requestAnimationFrame(()=>ensureMobilePageHeight());
+  setTimeout(()=>ensureMobilePageHeight(),80);
+  stage.querySelectorAll('img').forEach(img=>{if(!img.complete) img.addEventListener('load',()=>ensureMobilePageHeight(),{once:true})});
 }
 
 function captureTurnSheet(direction){
@@ -348,6 +393,9 @@ mobileMedia?.addEventListener?.('change',()=>{
   current=Math.max(1,Math.min(pages.length,current));
   renderReader();
 });
+
+window.addEventListener('resize',()=>{if(isMobileView()) requestAnimationFrame(()=>ensureMobilePageHeight())});
+window.visualViewport?.addEventListener?.('resize',()=>{if(isMobileView()) requestAnimationFrame(()=>ensureMobilePageHeight())});
 
 if(params.get('print')==='1'){
   document.body.classList.add('print-mode');
