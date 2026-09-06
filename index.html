@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Lumen Stellar — Seja Luz</title>
+  <meta name="theme-color" content="#090719" />
+  <meta name="description" content="Lumen Stellar — Seja Luz." />
+  <meta property="og:title" content="Lumen Stellar — Seja Luz" />
+  <meta property="og:description" content="O Espírito do Instituto em uma experiência interativa." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="icon" href="favicon.ico" sizes="any" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <header class="topbar" id="topbar">
+    <div class="brand">
+      <span class="brand-star">✦</span>
+      <div>
+        <strong>LUMEN STELLAR</strong>
+        <small>Seja Luz</small>
+      </div>
+    </div>
+    <div class="actions">
+      <button id="tocButton" class="ghost">Mapa Stellar</button>
+      <button id="modeButton" class="ghost">Página dupla</button>
+      <div class="page-jump" role="group" aria-label="Ir para uma página">
+        <label class="sr-only" for="pageJumpInput">Ir para página</label>
+        <input id="pageJumpInput" type="number" min="1" step="1" inputmode="numeric" aria-label="Número da página" placeholder="Pág." />
+        <button id="pageJumpGo" class="ghost" aria-label="Ir para a página digitada">Ir</button>
+      </div>
+      <div class="zoom-controls" role="group" aria-label="Zoom do livro">
+        <button id="zoomOut" class="ghost zoom-btn" aria-label="Diminuir zoom">−</button>
+        <button id="zoomReset" class="ghost zoom-value" aria-label="Redefinir zoom">100%</button>
+        <button id="zoomIn" class="ghost zoom-btn" aria-label="Aumentar zoom">+</button>
+      </div>
+      <button id="fullscreenButton" class="primary" aria-label="Ativar tela cheia">Tela cheia</button>
+    </div>
+  </header>
+
+  <aside class="toc" id="toc" aria-hidden="true">
+    <div class="toc-head">
+      <div>
+        <small>MAPA STELLAR</small>
+        <h2>Constelações do livro</h2>
+      </div>
+      <button id="tocClose" aria-label="Fechar">×</button>
+    </div>
+    <nav id="tocList"></nav>
+  </aside>
+  <div class="scrim" id="scrim"></div>
+
+  <main class="reader" id="reader">
+    <button class="nav prev" id="prev" aria-label="Página anterior">‹</button>
+    <div class="book-stage" id="stage"></div>
+    <button class="nav next" id="next" aria-label="Próxima página">›</button>
+  </main>
+
+  <footer class="reader-footer" id="readerFooter">
+    <span id="pageIndicator">Página 1</span>
+    <div class="progress"><i id="progressBar"></i></div>
+    <span>✦ Ajudar Hoje para Transformar o Amanhã.</span>
+  </footer>
+
+  <main class="print-book" id="printBook"></main>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

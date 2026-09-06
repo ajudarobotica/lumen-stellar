@@ -1,0 +1,2350 @@
+{
+  "meta": {
+    "title": "LUMEN STELLAR",
+    "subtitle": "Seja Luz",
+    "tagline": "Ajudar Hoje para Transformar o Amanhã.",
+    "pageCount": 60
+  },
+  "pages": [
+    {
+      "number": 1,
+      "kind": "cover",
+      "items": [
+        {
+          "type": "p",
+          "text": "INSTITUTO AJUDA ROBÓTICA"
+        },
+        {
+          "type": "p",
+          "text": "LUMEN STELLAR"
+        },
+        {
+          "type": "p",
+          "text": "Seja Luz"
+        },
+        {
+          "type": "p",
+          "text": "Uma filosofia para Ajudar, Transformar e iluminar o futuro."
+        },
+        {
+          "type": "p",
+          "text": "Ajudando a Transformar o Presente dos Criadores do Nosso Futuro."
+        },
+        {
+          "type": "p",
+          "text": "Ajudar Hoje para Transformar o Amanhã."
+        }
+      ]
+    },
+    {
+      "number": 2,
+      "kind": "preface",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Antes de começar"
+        },
+        {
+          "type": "p",
+          "text": "Este não é um manual de procedimentos. É um mapa de sentido."
+        },
+        {
+          "type": "p",
+          "text": "Este livro existe para guardar aquilo que não cabe em um organograma, em um edital ou em uma planilha: o espírito que dá sentido ao Instituto Ajuda Robótica. Ele procura responder às perguntas mais simples e, ao mesmo tempo, mais importantes: por que existimos? O que queremos ajudar a transformar? Em que acreditamos? Que tipo de sociedade queremos ajudar a construir? E como queremos caminhar até ela?"
+        },
+        {
+          "type": "p",
+          "text": "Ele não pretende congelar o Instituto em palavras. Ao contrário: pretende oferecer uma estrela de referência. Programas podem nascer, amadurecer e mudar. Projetos terão começos e fins. Parcerias serão construídas. Novas áreas poderão surgir. Mas, por trás de tudo isso, deve existir uma mesma direção: Ajudar com propósito para tornar possíveis transformações reais."
+        },
+        {
+          "type": "p",
+          "text": "“Uma organização pode mudar suas ferramentas sem perder sua essência. A essência é aquilo que nos lembra por que vale a pena continuar.”"
+        },
+        {
+          "type": "p",
+          "text": "Lumen Stellar é o nome que damos a essa visão de mundo, uma filosofia na qual:"
+        },
+        {
+          "type": "p",
+          "text": "✦ o Instituto é um céu de possibilidades e conexões;"
+        },
+        {
+          "type": "p",
+          "text": "✦ cada criança e cada jovem é uma estrela;"
+        },
+        {
+          "type": "p",
+          "text": "✦ cada programa é uma constelação;"
+        },
+        {
+          "type": "p",
+          "text": "✦ cada transformação é uma nova luz de esperança;"
+        },
+        {
+          "type": "p",
+          "text": "✦ e todas essas luzes, quando conectadas por propósito, podem iluminar muito além de si mesmas, podem iluminar o nosso futuro."
+        }
+      ]
+    },
+    {
+      "number": 3,
+      "kind": "map",
+      "items": [
+        {
+          "type": "p",
+          "text": "🌌 Mapa Stellar"
+        },
+        {
+          "type": "p",
+          "text": "Os grandes caminhos deste livro."
+        },
+        {
+          "type": "p",
+          "text": "✦ 1. A Razão de Existir — por que o Instituto existe e o significado de “Ajuda Robótica”."
+        },
+        {
+          "type": "p",
+          "text": "✦ 2. A Nossa Essência — a ideia que concentra o espírito da organização."
+        },
+        {
+          "type": "p",
+          "text": "✦ 3. Ajudar e Transformar — os dois verbos que orientam toda a nossa atuação."
+        },
+        {
+          "type": "p",
+          "text": "✦ 4. Lumen Stellar — a céu, as estrelas, as constelações e a luz."
+        },
+        {
+          "type": "p",
+          "text": "✦ 5. Os Três Caminhos do Ajudar — o próximo, a sociedade e a nós mesmos."
+        },
+        {
+          "type": "p",
+          "text": "✦ 6. Os Ideais do Ajudar — compromissos que orientam como queremos agir."
+        },
+        {
+          "type": "p",
+          "text": "✦ 7. As Virtudes do Ajudar — qualidades humanas que tornam a ajuda possível."
+        },
+        {
+          "type": "p",
+          "text": "✦ 8. Propósito, Missão, Visão e Valores — a direção comum da instituição."
+        },
+        {
+          "type": "p",
+          "text": "✦ 9. Como Ajudamos a Transformar — da oportunidade ao impacto."
+        },
+        {
+          "type": "p",
+          "text": "✦ 10. Programas como Constelações — como diferentes iniciativas se conectam sem perder sua identidade."
+        },
+        {
+          "type": "p",
+          "text": "✦ 11. A Jornada das Estrelas — do primeiro encontro com uma oportunidade ao protagonismo."
+        },
+        {
+          "type": "p",
+          "text": "✦ 12. Seja Luz — o chamado cultural para todos que fazem parte deste céu."
+        },
+        {
+          "type": "p",
+          "text": "✦ 13. O Amanhã que Queremos Ajudar a Construir — a sociedade que esperamos iluminar juntos."
+        }
+      ]
+    },
+    {
+      "number": 4,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 1"
+        },
+        {
+          "type": "p",
+          "text": "A Razão de Existir"
+        },
+        {
+          "type": "p",
+          "text": "Por que existe o Instituto Ajuda Robótica?"
+        },
+        {
+          "type": "p",
+          "text": "“Não precisamos criar todas as boas ideias. Precisamos ajudar boas ideias a se transformarem em impacto.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 1",
+      "title": "A Razão de Existir",
+      "subtitle": "Por que existe o Instituto Ajuda Robótica?",
+      "quote": "“Não precisamos criar todas as boas ideias. Precisamos ajudar boas ideias a se transformarem em impacto.”"
+    },
+    {
+      "number": 5,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Estamos aqui para Ajudar"
+        },
+        {
+          "type": "p",
+          "text": "O Instituto Ajuda Robótica nasce de uma premissa simples: existem pessoas, ideias, projetos e iniciativas capazes de gerar impacto positivo, mas muitas vezes aquilo que poderia transformar uma trajetória não encontra as condições necessárias para acontecer."
+        },
+        {
+          "type": "p",
+          "text": "✦ Falta oportunidade."
+        },
+        {
+          "type": "p",
+          "text": "✦ Falta acesso."
+        },
+        {
+          "type": "p",
+          "text": "✦ Falta estrutura."
+        },
+        {
+          "type": "p",
+          "text": "✦ Falta conexão."
+        },
+        {
+          "type": "p",
+          "text": "✦ Falta alguém disposto a ajudar a construir a ponte entre potencial e realidade."
+        },
+        {
+          "type": "p",
+          "text": "Por isso, o Instituto não existe apenas para executar atividades. Ele existe para ajudar a viabilizar transformação. Pode criar iniciativas próprias, fortalecer programas que já existem, conectar parceiros, aproximar conhecimento e comunidade, estruturar oportunidades, abrir espaços e reunir pessoas em torno de um propósito comum."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "✦ A nossa pergunta central Diante de uma boa iniciativa, de um jovem com potencial ou de uma necessidade concreta, perguntamos: como podemos AJUDAR para que algo positivo possa se TRANSFORMAR em realidade?"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Ajudar, para nós, não significa ocupar o lugar do outro. Significa criar condições para que pessoas e iniciativas desenvolvam suas próprias capacidades."
+        },
+        {
+          "type": "p",
+          "text": "✦ É apoiar sem retirar autonomia."
+        },
+        {
+          "type": "p",
+          "text": "✦ É abrir caminhos sem determinar destinos."
+        },
+        {
+          "type": "p",
+          "text": "✦ É oferecer uma mão sem transformar ajuda em dependência."
+        }
+      ]
+    },
+    {
+      "number": 6,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Ajuda + Robótica"
+        },
+        {
+          "type": "p",
+          "text": "O nome como síntese de uma forma de enxergar o mundo."
+        },
+        {
+          "type": "p",
+          "text": "💜 AJUDA"
+        },
+        {
+          "type": "p",
+          "text": "Ajuda é o nosso verbo de origem. Representa disposição para apoiar, compartilhar, conectar, facilitar, ensinar, aprender, acolher, construir oportunidades e colocar capacidades a serviço de algo maior do que nós mesmos."
+        },
+        {
+          "type": "p",
+          "text": "⚙ ROBÓTICA"
+        },
+        {
+          "type": "p",
+          "text": "Robótica representa nossa origem, mas também um símbolo. Ela reúne tecnologia, ciência, criatividade, construção, experimentação e a mentalidade maker: imaginar, testar, errar, aprender, reconstruir e criar soluções com as próprias mãos."
+        },
+        {
+          "type": "p",
+          "text": "Por isso, “Robótica” não limita o Instituto a robôs. Ela simboliza a capacidade humana de usar conhecimento e criatividade para transformar realidades."
+        },
+        {
+          "type": "p",
+          "text": "“Ajuda é a intenção que nos move. Robótica é o símbolo da capacidade de criar. Transformação é o impacto que buscamos.”"
+        },
+        {
+          "type": "p",
+          "text": "É por isso que a atuação pode atravessar o social, a educação, a ciência, a tecnologia, o esporte, a arte e a cultura. As ferramentas mudam; o propósito permanece."
+        }
+      ]
+    },
+    {
+      "number": 7,
+      "kind": "diagram",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ O Ciclo que nos Move"
+        },
+        {
+          "type": "p",
+          "text": "Ajudar hoje para que outras pessoas possam transformar amanhã."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "O INSTITUTO AJUDA"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "CRIANÇAS E JOVENS"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "A TRANSFORMAR O SEU PRESENTE"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "DESENVOLVENDO SEU POTENCIAL"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "TORNAM-SE CRIADORES"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "QUE AMANHÃ AJUDAM A TRANSFORMAR NOSSA SOCIEDADE"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "“Ajudar não termina em quem recebe ajuda. A transformação se completa quando a luz pode seguir adiante.”"
+        }
+      ]
+    },
+    {
+      "number": 8,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 2"
+        },
+        {
+          "type": "p",
+          "text": "A Nossa Essência"
+        },
+        {
+          "type": "p",
+          "text": "O coração da filosofia do Instituto"
+        },
+        {
+          "type": "p",
+          "text": "“Cada transformação pode se tornar uma nova luz de esperança.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 2",
+      "title": "A Nossa Essência",
+      "subtitle": "O coração da filosofia do Instituto",
+      "quote": "“Cada transformação pode se tornar uma nova luz de esperança.”"
+    },
+    {
+      "number": 9,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "🌟 A Essência"
+        },
+        {
+          "type": "p",
+          "text": "Acreditamos que toda criança e todo jovem carrega dentro de si uma luz única."
+        },
+        {
+          "type": "p",
+          "text": "Nem todos começam da mesma realidade. Nem todos encontram as mesmas oportunidades. Nem todos percorrem o mesmo caminho."
+        },
+        {
+          "type": "p",
+          "text": "Mas acreditamos que oportunidade, conhecimento, apoio e propósito podem ajudar uma pessoa a descobrir forças que talvez ainda não saiba que possui."
+        },
+        {
+          "type": "p",
+          "text": "Estamos aqui para ajudar."
+        },
+        {
+          "type": "p",
+          "text": "Ajudar a abrir caminhos. Ajudar a superar barreiras. Ajudar a descobrir potencial. Ajudar a transformar o presente."
+        },
+        {
+          "type": "p",
+          "text": "Porque não queremos simplesmente criar o futuro para nossos jovens."
+        },
+        {
+          "type": "p",
+          "text": "Queremos ajudá-los a perceber que eles são seus criadores."
+        },
+        {
+          "type": "p",
+          "text": "Cada criança é uma estrela. Cada programa, uma constelação. Cada transformação, uma nova luz de esperança."
+        },
+        {
+          "type": "p",
+          "text": "E quando essas luzes se conectam, tornam-se capazes de iluminar muito além de si mesmas, tornam-se capazes de iluminar o nosso futuro."
+        },
+        {
+          "type": "p",
+          "text": "Ajudar Hoje para Transformar o Amanhã."
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Os Criadores do Nosso Futuro"
+        },
+        {
+          "type": "p",
+          "text": "Por que escolhemos essa forma de falar sobre crianças e jovens."
+        },
+        {
+          "type": "p",
+          "text": "Chamamos crianças e jovens de Criadores do Nosso Futuro porque não queremos enxergá-los apenas como beneficiários. Eles são pessoas em formação que carregarão escolhas, conhecimentos, valores, experiências e sonhos para a sociedade de amanhã."
+        },
+        {
+          "type": "p",
+          "text": "★ Criadores como protagonistas — pessoas capazes de participar das decisões sobre suas próprias trajetórias."
+        },
+        {
+          "type": "p",
+          "text": "★ Criadores como makers — pessoas que aprendem construindo, testando, imaginando, resolvendo problemas e transformando ideias em realidade."
+        },
+        {
+          "type": "p",
+          "text": "★ Criadores do futuro — pessoas que um dia estarão criando empresas, pesquisas, tecnologias, obras, políticas, comunidades, famílias, projetos e novas oportunidades para outros."
+        },
+        {
+          "type": "p",
+          "text": "“Não queremos decidir o futuro por eles. Queremos ajudar a ampliar aquilo que eles poderão escolher para si.”"
+        },
+        {
+          "type": "p",
+          "text": "A expressão “Criadores” é, portanto, uma declaração de confiança. Ela afirma que cada jovem pode ser agente da própria história e participante ativo da construção da sociedade."
+        }
+      ]
+    },
+    {
+      "number": 11,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 3"
+        },
+        {
+          "type": "p",
+          "text": "Ajudar e Transformar"
+        },
+        {
+          "type": "p",
+          "text": "Os dois verbos que dão direção ao Instituto"
+        },
+        {
+          "type": "p",
+          "text": "“Ajudar é a nossa escolha. Transformar é o impacto que buscamos.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 3",
+      "title": "Ajudar e Transformar",
+      "subtitle": "Os dois verbos que dão direção ao Instituto",
+      "quote": "“Ajudar é a nossa escolha. Transformar é o impacto que buscamos.”"
+    },
+    {
+      "number": 12,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "💜 AJUDAR"
+        },
+        {
+          "type": "p",
+          "text": "O verbo que dá origem ao Instituto."
+        },
+        {
+          "type": "p",
+          "text": "Ajudar não é apenas uma boa intenção. É uma prática. Exige perceber, escutar, compreender, compartilhar, conectar, aprender e agir. Às vezes ajudar será oferecer uma oportunidade. Em outros momentos será ensinar, financiar, criar uma ponte, abrir uma porta, emprestar conhecimento, dar espaço, incentivar ou simplesmente caminhar ao lado."
+        },
+        {
+          "type": "p",
+          "text": "Também existe uma forma de ajuda que parece menor, mas pode mudar tudo: acreditar em alguém antes que essa pessoa consiga acreditar plenamente em si mesma. Não para criar uma ilusão, mas para oferecer confiança suficiente para que ela tenha coragem de tentar."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "✦ Ajudar não é salvar. A filosofia do Instituto rejeita a ideia de que alguém deva ser “salvo” por nós. A ajuda que buscamos fortalece autonomia, protagonismo, capacidade e escolhas. Nosso papel é ajudar a criar condições; a caminhada continua pertencendo à própria pessoa."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 13,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "✨ TRANSFORMAR"
+        },
+        {
+          "type": "p",
+          "text": "O horizonte para o qual queremos caminhar."
+        },
+        {
+          "type": "p",
+          "text": "Transformar, para o Instituto, significa produzir mudança positiva real. Uma atividade pode ser divertida, bonita ou bem organizada e ainda assim gerar pouco impacto. Por isso, queremos sempre olhar além da atividade e perguntar:"
+        },
+        {
+          "type": "p",
+          "text": "✦ O que mudou?"
+        },
+        {
+          "type": "p",
+          "text": "✦ O que ficou?"
+        },
+        {
+          "type": "p",
+          "text": "✦ Que possibilidade surgiu?"
+        },
+        {
+          "type": "p",
+          "text": "✦ Que habilidade foi descoberta?"
+        },
+        {
+          "type": "p",
+          "text": "✦ Que barreira diminuiu?"
+        },
+        {
+          "type": "p",
+          "text": "✦ Que novo caminho se tornou possível?"
+        },
+        {
+          "type": "p",
+          "text": "A transformação pode ser grande ou pequena. Pode aparecer em uma criança que descobre uma vocação, em um jovem que aprende a trabalhar em equipe, em alguém que participa pela primeira vez de uma competição, em uma família que passa a enxergar novas possibilidades, em uma escola que ganha uma nova iniciativa ou em uma comunidade que se conecta a oportunidades antes distantes."
+        },
+        {
+          "type": "p",
+          "text": "“Transformar não é prometer que mudaremos a vida de alguém. É trabalhar para que novas possibilidades reais possam fazer parte dessa vida.”"
+        }
+      ]
+    },
+    {
+      "number": 14,
+      "kind": "diagram",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Ajudar Hoje para Transformar o Amanhã"
+        },
+        {
+          "type": "p",
+          "text": "A mensagem curta que resume uma visão de longo prazo."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "AJUDAR HOJE"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "CRIAR OPORTUNIDADES NO PRESENTE"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "DESPERTAR E DESENVOLVER POTENCIAL"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "FORTALECER AUTONOMIA E PROTAGONISMO"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "FORMAR CRIADORES DO PRÓPRIO FUTURO"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "AJUDAR A TRANSFORMAR O AMANHÃ"
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "O “amanhã” não é um lugar distante. Ele começa nas experiências que uma criança vive hoje, nas relações que constrói, nas oportunidades às quais tem acesso e nas escolhas que aprende a fazer. Quando ajudamos o presente, estamos participando da construção do futuro."
+        }
+      ]
+    },
+    {
+      "number": 15,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 4"
+        },
+        {
+          "type": "p",
+          "text": "Lumen Stellar"
+        },
+        {
+          "type": "p",
+          "text": "O Céu onde estrelas formam constelações"
+        },
+        {
+          "type": "p",
+          "text": "““Cada estrela possui uma luz. Cada constelação conecta estrelas em torno de um propósito. E são essas luzes que dão vida ao nosso céu.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 4",
+      "title": "Lumen Stellar",
+      "subtitle": "O Céu onde estrelas formam constelações",
+      "quote": "““Cada estrela possui uma luz. Cada constelação conecta estrelas em torno de um propósito. E são essas luzes que dão vida ao nosso céu.”"
+    },
+    {
+      "number": 16,
+      "kind": "art",
+      "items": [
+        {
+          "type": "p",
+          "text": "🌌 O Céu que Chamamos de Lumen Stellar"
+        },
+        {
+          "type": "p",
+          "text": "Uma linguagem para enxergar pessoas, programas e impacto como partes de um mesmo céu."
+        },
+        {
+          "type": "p",
+          "text": "Lumen Stellar é a cultura visual e conceitual que organiza o espírito do Instituto. “Lumen” evoca luz: conhecimento, esperança, potencial, propósito e capacidade de iluminar. “Stellar” evoca estrelas e a imagem do céu como um espaço de possibilidades, trajetórias e conexões."
+        },
+        {
+          "type": "p",
+          "text": "Não é uma estrutura burocrática. É uma forma de lembrar que nenhuma ação existe isoladamente. Pessoas se conectam a pessoas. Programas conectam oportunidades. Parceiros aproximam recursos. Mentores compartilham conhecimento. Projetos criam experiências. E essas experiências podem produzir luzes que seguem muito além do momento em que aconteceram."
+        },
+        {
+          "type": "p",
+          "text": "“Nosso céu não ganha vida por causa de suas estruturas. Ele ganha vida pelas estrelas que o iluminam.”"
+        }
+      ],
+      "art": "assets/star-compass.svg"
+    },
+    {
+      "number": 17,
+      "kind": "glossary",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ O Significado de Cada Elemento"
+        },
+        {
+          "type": "p",
+          "text": "✦ O Céu — o Instituto e seu ecossistema"
+        },
+        {
+          "type": "p",
+          "text": "É o espaço comum onde estrelas, constelações, caminhos e conexões podem existir. O Instituto ajuda a criar e sustentar esse céu, reunindo pessoas, programas, parceiros, conhecimento, recursos, oportunidades e sonhos em torno de um propósito de transformação."
+        },
+        {
+          "type": "p",
+          "text": "✦ As Estrelas — crianças e jovens"
+        },
+        {
+          "type": "p",
+          "text": "Cada estrela possui trajetória, ritmo, realidade, sonhos e potencial próprios. Nenhuma precisa brilhar da mesma forma que outra."
+        },
+        {
+          "type": "p",
+          "text": "✦ A Luz — potencial, conhecimento e esperança"
+        },
+        {
+          "type": "p",
+          "text": "A luz representa aquilo que pode ser despertado, desenvolvido e compartilhado. Ela não é entregue pronta: muitas vezes já existe, esperando condições para aparecer."
+        },
+        {
+          "type": "p",
+          "text": "✦ As Constelações — os programas"
+        },
+        {
+          "type": "p",
+          "text": "Programas conectam diferentes estrelas e ações em torno de um objetivo comum. Eles dão estrutura, continuidade e identidade à transformação que buscamos."
+        },
+        {
+          "type": "p",
+          "text": "✦ Os Caminhos — projetos e experiências"
+        },
+        {
+          "type": "p",
+          "text": "São as rotas concretas pelas quais uma pessoa encontra uma oportunidade, aprende, enfrenta desafios, participa, cria e se desenvolve."
+        },
+        {
+          "type": "p",
+          "text": "✦ As Conexões — pessoas e parceiros"
+        },
+        {
+          "type": "p",
+          "text": "Famílias, educadores, mentores, empresas, escolas, universidades, organizações, voluntários, comunidades e Poder Público podem se tornar forças que aproximam oportunidades das estrelas."
+        }
+      ]
+    },
+    {
+      "number": 18,
+      "kind": "triad",
+      "items": [
+        {
+          "type": "p",
+          "text": "★ Programas são Constelações"
+        },
+        {
+          "type": "p",
+          "text": "Uma constelação não substitui as estrelas. Ela as conecta de maneira que uma relação possa ser percebida. Da mesma forma, um programa institucional não deve apagar a individualidade de quem participa; deve criar uma estrutura comum que permita que diferentes pessoas encontrem oportunidades, experiências e objetivos compartilhados."
+        },
+        {
+          "type": "p",
+          "text": "Por isso, os programas do Instituto podem cruzar diferentes dimensões, social, educacional, esportiva, tecnológica, científica, artística ou cultural, sem precisar ser confinados a uma única caixa."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "ESTRELAS Pessoas com histórias, sonhos, ritmos e potenciais próprios.",
+              "CONSTELAÇÕES Programas que conectam oportunidades e pessoas em torno de um propósito comum.",
+              "CÉU O Instituto e seu ecossistema, onde diferentes constelações coexistem e suas estrelas podem encontrar caminhos para brilhar."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "“Uma estrela pode iluminar um caminho. Muitas estrelas conectadas podem iluminar um horizonte.”"
+        }
+      ]
+    },
+    {
+      "number": 19,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 5"
+        },
+        {
+          "type": "p",
+          "text": "Os Três Caminhos do Ajudar"
+        },
+        {
+          "type": "p",
+          "text": "O próximo. A sociedade. Nós mesmos."
+        },
+        {
+          "type": "p",
+          "text": "“Ajudar é um movimento que começa perto, cresce coletivamente e precisa ser sustentável por dentro.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 5",
+      "title": "Os Três Caminhos do Ajudar",
+      "subtitle": "O próximo. A sociedade. Nós mesmos.",
+      "quote": "“Ajudar é um movimento que começa perto, cresce coletivamente e precisa ser sustentável por dentro.”"
+    },
+    {
+      "number": 20,
+      "kind": "triad",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Os Três Círculos do Ajudar"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "AJUDAR O PRÓXIMO Enxergar, escutar, respeitar, compartilhar e abrir oportunidades para outra pessoa.",
+              "AJUDAR A SOCIEDADE Cooperar, assumir responsabilidade e contribuir para estruturas mais justas e capazes de gerar oportunidades.",
+              "AJUDAR A MIM MESMO Aprender, desenvolver-se, conhecer limites, preservar equilíbrio e manter viva a capacidade de continuar ajudando."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Os três círculos não competem entre si. Eles se sustentam. Quem ajuda o próximo participa da construção da sociedade. Quem quer ajudar a sociedade precisa aprender a cooperar. E quem deseja continuar ajudando precisa cuidar da própria capacidade de agir."
+        },
+        {
+          "type": "p",
+          "text": "“Ajudar o outro sem cuidar de si pode nos apagar. Cuidar de si sem olhar para o outro pode nos isolar. A luz cresce quando encontra equilíbrio e propósito.”"
+        }
+      ]
+    },
+    {
+      "number": 21,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "🤝 Ajudar o Próximo"
+        },
+        {
+          "type": "p",
+          "text": "A ajuda começa quando conseguimos enxergar alguém como pessoa, não como problema."
+        },
+        {
+          "type": "p",
+          "text": "Ajudar o próximo exige proximidade humana. Não basta decidir de longe aquilo que seria melhor para alguém. É preciso escutar, entender a realidade, respeitar escolhas e reconhecer que nenhuma pessoa é apenas sua dificuldade."
+        },
+        {
+          "type": "p",
+          "text": "✦ Enxergar antes de agir — compreender contexto, sonhos, barreiras e possibilidades."
+        },
+        {
+          "type": "p",
+          "text": "✦ Escutar antes de responder — a ajuda precisa dialogar com necessidades reais."
+        },
+        {
+          "type": "p",
+          "text": "✦ Respeitar a autonomia — apoiar não significa controlar."
+        },
+        {
+          "type": "p",
+          "text": "✦ Compartilhar oportunidades — tempo, conhecimento, acesso, experiência, recursos e conexões podem abrir novos caminhos."
+        },
+        {
+          "type": "p",
+          "text": "✦ Acreditar sem idealizar — reconhecer potencial sem negar dificuldades reais."
+        },
+        {
+          "type": "p",
+          "text": "✦ Caminhar junto — há momentos em que a presença e a continuidade valem tanto quanto uma solução imediata."
+        }
+      ]
+    },
+    {
+      "number": 22,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "🌍 Ajudar a Construir uma Sociedade Melhor"
+        },
+        {
+          "type": "p",
+          "text": "A transformação individual ganha força quando se conecta ao bem comum."
+        },
+        {
+          "type": "p",
+          "text": "O Instituto não existe apenas para produzir histórias individuais de sucesso. Queremos que cada transformação também amplie a capacidade coletiva de construir uma sociedade com mais oportunidades, conhecimento, cooperação, responsabilidade e esperança."
+        },
+        {
+          "type": "p",
+          "text": "Isso significa compreender que impacto social não é apenas quantas pessoas participaram de uma atividade, mas também que relações, capacidades e possibilidades ficaram no território depois que a atividade terminou."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "✦ Uma sociedade melhor é construída em rede. Nenhuma organização, empresa, escola, universidade, família ou poder público consegue responder sozinho a todos os desafios. Ajudar a sociedade é aprender a conectar forças diferentes sem apagar suas identidades."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 23,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "☀ Ajudar a Mim Mesmo"
+        },
+        {
+          "type": "p",
+          "text": "Cuidar da própria luz para continuar compartilhando-a."
+        },
+        {
+          "type": "p",
+          "text": "Ajudar a si mesmo não é o oposto de ajudar os outros. É parte da capacidade de continuar. Quem deseja ensinar precisa continuar aprendendo. Quem quer apoiar precisa reconhecer seus limites. Quem assume responsabilidades precisa também saber pedir ajuda. Quem sonha em transformar alguma coisa ao redor precisa aceitar a própria transformação ao longo da jornada."
+        },
+        {
+          "type": "p",
+          "text": "✦ Autoconhecimento — compreender forças, limites, interesses, valores e propósito."
+        },
+        {
+          "type": "p",
+          "text": "✦ Aprendizado contínuo — aceitar que ninguém termina sua formação."
+        },
+        {
+          "type": "p",
+          "text": "✦ Equilíbrio — preservar energia, saúde das relações e capacidade de continuar."
+        },
+        {
+          "type": "p",
+          "text": "✦ Coragem para pedir ajuda — ninguém precisa carregar sozinho aquilo que pode ser construído em conjunto."
+        },
+        {
+          "type": "p",
+          "text": "✦ Humildade para mudar — reconhecer erros, rever caminhos e continuar crescendo."
+        },
+        {
+          "type": "p",
+          "text": "“Ajudarei a mim mesmo para que eu possa continuar ajudando os outros.”"
+        }
+      ]
+    },
+    {
+      "number": 24,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 6"
+        },
+        {
+          "type": "p",
+          "text": "Os Ideais do Ajudar"
+        },
+        {
+          "type": "p",
+          "text": "Compromissos para viver a filosofia Lumen Stellar"
+        },
+        {
+          "type": "p",
+          "text": "“Ideais não são frases para decorar. São perguntas que devemos levar conosco quando precisamos escolher como agir.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 6",
+      "title": "Os Ideais do Ajudar",
+      "subtitle": "Compromissos para viver a filosofia Lumen Stellar",
+      "quote": "“Ideais não são frases para decorar. São perguntas que devemos levar conosco quando precisamos escolher como agir.”"
+    },
+    {
+      "number": 25,
+      "kind": "ideal",
+      "items": [
+        {
+          "type": "p",
+          "text": "⭐ 1º Ideal — Toda Estrela Carrega uma Luz"
+        },
+        {
+          "type": "p",
+          "text": "“Acreditarei no potencial antes de desistir da possibilidade.”"
+        },
+        {
+          "type": "p",
+          "text": "Cada pessoa é maior do que aquilo que conseguimos enxergar em um único momento. Circunstância, origem, dificuldade ou erro não esgotam aquilo que alguém pode aprender, criar ou se tornar. Ajudar começa por reconhecer potencial sem romantizar a realidade."
+        },
+        {
+          "type": "p",
+          "text": "🔥 Viver este Ideal significa:"
+        },
+        {
+          "type": "p",
+          "text": "✓ Olhar para capacidades além das dificuldades presentes."
+        },
+        {
+          "type": "p",
+          "text": "✓ Criar experiências em que a pessoa possa descobrir aquilo que sabe e aquilo que ainda pode aprender."
+        },
+        {
+          "type": "p",
+          "text": "✓ Evitar rótulos que reduzam alguém ao seu desempenho, origem ou momento atual."
+        },
+        {
+          "type": "p",
+          "text": "✓ Celebrar crescimento, não apenas resultados finais."
+        }
+      ]
+    },
+    {
+      "number": 26,
+      "kind": "ideal",
+      "items": [
+        {
+          "type": "p",
+          "text": "⭐ 2º Ideal — Ajudar é Abrir Caminhos"
+        },
+        {
+          "type": "p",
+          "text": "“Nenhuma estrela deveria deixar de brilhar simplesmente porque uma oportunidade nunca chegou até ela.”"
+        },
+        {
+          "type": "p",
+          "text": "Nem todos começam da mesma realidade. Ajudar é reconhecer barreiras reais e trabalhar para aproximar oportunidades de quem historicamente teve menos acesso a elas. Transformar não significa garantir resultados iguais; significa ampliar possibilidades reais de escolha e desenvolvimento."
+        },
+        {
+          "type": "p",
+          "text": "🔥 Viver este Ideal significa:"
+        },
+        {
+          "type": "p",
+          "text": "✓ Buscar acesso gratuito ou acessível sempre que possível."
+        },
+        {
+          "type": "p",
+          "text": "✓ Conectar escolas, comunidades e jovens a oportunidades que normalmente estariam distantes."
+        },
+        {
+          "type": "p",
+          "text": "✓ Pensar inclusão desde o início, e não como adaptação tardia."
+        },
+        {
+          "type": "p",
+          "text": "✓ Usar parcerias e recursos como pontes para ampliar possibilidades."
+        }
+      ]
+    },
+    {
+      "number": 27,
+      "kind": "ideal",
+      "items": [
+        {
+          "type": "p",
+          "text": "⭐ 3º Ideal — Ajudar é Despertar, não Substituir"
+        },
+        {
+          "type": "p",
+          "text": "“Não faremos o caminho por alguém quando podemos ajudá-lo a descobrir que é capaz de caminhar.”"
+        },
+        {
+          "type": "p",
+          "text": "A melhor ajuda não cria dependência. Ela desperta confiança, autonomia e capacidade. O Instituto pode oferecer orientação, recursos, estrutura e apoio, mas o protagonismo da trajetória deve continuar pertencendo à pessoa."
+        },
+        {
+          "type": "p",
+          "text": "🔥 Viver este Ideal significa:"
+        },
+        {
+          "type": "p",
+          "text": "✓ Ensinar a pensar, e não apenas entregar respostas."
+        },
+        {
+          "type": "p",
+          "text": "✓ Criar espaço para escolhas, autoria e responsabilidade."
+        },
+        {
+          "type": "p",
+          "text": "✓ Permitir que jovens assumam papéis crescentes de liderança."
+        },
+        {
+          "type": "p",
+          "text": "✓ Transformar participantes em criadores, multiplicadores e mentores quando estiverem preparados."
+        }
+      ]
+    },
+    {
+      "number": 28,
+      "kind": "ideal",
+      "items": [
+        {
+          "type": "p",
+          "text": "⭐ 4º Ideal — Cada Estrela Tem sua Própria Rota"
+        },
+        {
+          "type": "p",
+          "text": "“Respeitarei que nem todas as estrelas brilham do mesmo modo, no mesmo tempo ou na mesma direção.”"
+        },
+        {
+          "type": "p",
+          "text": "Ajudar exige aceitar diferença. Há pessoas que aprendem rapidamente, outras precisam de tempo. Algumas encontrarão paixão em tecnologia; outras no esporte, na arte, na cultura, na pesquisa ou em caminhos que ainda nem conhecemos. O propósito não é produzir trajetórias idênticas. É ampliar a capacidade de cada um descobrir a sua."
+        },
+        {
+          "type": "p",
+          "text": "🔥 Viver este Ideal significa:"
+        },
+        {
+          "type": "p",
+          "text": "✓ Respeitar ritmos e formas diferentes de aprender."
+        },
+        {
+          "type": "p",
+          "text": "✓ Evitar comparar trajetórias como se todas partissem do mesmo lugar."
+        },
+        {
+          "type": "p",
+          "text": "✓ Oferecer diferentes portas de entrada e diferentes possibilidades de continuidade."
+        },
+        {
+          "type": "p",
+          "text": "✓ Saber quando incentivar, quando ajustar e quando dar espaço."
+        }
+      ]
+    },
+    {
+      "number": 29,
+      "kind": "ideal",
+      "items": [
+        {
+          "type": "p",
+          "text": "⭐ 5º Ideal — A Jornada Também Transforma"
+        },
+        {
+          "type": "p",
+          "text": "“Sonho antes da desilusão. Aprendizado antes da estagnação. Persistência antes da desistência. Jornada antes do destino.”"
+        },
+        {
+          "type": "p",
+          "text": "Resultados importam, mas não são tudo. Muitas das transformações mais importantes acontecem enquanto uma pessoa tenta, erra, aprende, coopera, enfrenta frustração, volta a tentar e percebe que é capaz de fazer hoje aquilo que ontem parecia impossível."
+        },
+        {
+          "type": "p",
+          "text": "🔥 Viver este Ideal significa:"
+        },
+        {
+          "type": "p",
+          "text": "✓ Tratar erros como parte do processo de aprendizagem."
+        },
+        {
+          "type": "p",
+          "text": "✓ Valorizar esforço consistente e evolução, não apenas premiações."
+        },
+        {
+          "type": "p",
+          "text": "✓ Criar desafios reais, mas possíveis de serem enfrentados com apoio."
+        },
+        {
+          "type": "p",
+          "text": "✓ Ensinar que cair não encerra a jornada; pode abrir uma nova forma de continuar."
+        }
+      ]
+    },
+    {
+      "number": 30,
+      "kind": "ideal",
+      "items": [
+        {
+          "type": "p",
+          "text": "⭐ 6º Ideal — Estrelas Juntas Formam Constelações"
+        },
+        {
+          "type": "p",
+          "text": "“Melhor Ajudaremos quando aprendermos nossas forças conectar.”"
+        },
+        {
+          "type": "p",
+          "text": "Transformações profundas raramente são individuais. Elas acontecem quando diferentes competências, experiências e recursos encontram um propósito comum. O Instituto deve ser um lugar de conexão: entre jovens, famílias, educadores, empresas, universidades, escolas, comunidades, organizações e poder público."
+        },
+        {
+          "type": "p",
+          "text": "🔥 Viver este Ideal significa:"
+        },
+        {
+          "type": "p",
+          "text": "✓ Construir parcerias com clareza de propósito."
+        },
+        {
+          "type": "p",
+          "text": "✓ Compartilhar conhecimento em vez de concentrá-lo."
+        },
+        {
+          "type": "p",
+          "text": "✓ Valorizar equipes e colaboração acima do protagonismo individual."
+        },
+        {
+          "type": "p",
+          "text": "✓ Criar condições para que quem foi ajudado possa, no futuro, ajudar outras pessoas."
+        }
+      ]
+    },
+    {
+      "number": 31,
+      "kind": "ideal",
+      "items": [
+        {
+          "type": "p",
+          "text": "⭐ 7º Ideal — A Luz Deve Seguir Adiante"
+        },
+        {
+          "type": "p",
+          "text": "“Aquilo que recebemos encontra seu maior valor quando também pode ajudar alguém depois de nós.”"
+        },
+        {
+          "type": "p",
+          "text": "Conhecimento, experiência e oportunidade podem se multiplicar. Um jovem que aprende pode ensinar. Quem encontrou uma porta aberta pode ajudar a mantê-la aberta para outros. A transformação se torna mais poderosa quando deixa de terminar em uma única pessoa."
+        },
+        {
+          "type": "p",
+          "text": "🔥 Viver este Ideal significa:"
+        },
+        {
+          "type": "p",
+          "text": "✓ Estimular cultura de compartilhamento e mentoria."
+        },
+        {
+          "type": "p",
+          "text": "✓ Criar jornadas em que participantes experientes possam apoiar iniciantes."
+        },
+        {
+          "type": "p",
+          "text": "✓ Reconhecer o valor de devolver à comunidade parte daquilo que foi recebido."
+        },
+        {
+          "type": "p",
+          "text": "✓ Transformar sucesso individual em capacidade coletiva."
+        }
+      ]
+    },
+    {
+      "number": 32,
+      "kind": "ideal",
+      "items": [
+        {
+          "type": "p",
+          "text": "⭐ 8º Ideal — Ajudar com Propósito e Integridade"
+        },
+        {
+          "type": "p",
+          "text": "“Boa intenção só se torna ajuda real quando encontra propósito e responsabilidade.”"
+        },
+        {
+          "type": "p",
+          "text": "Ajudar exige ética. Recursos precisam ser tratados com cuidado. Parcerias precisam respeitar pessoas. Projetos precisam buscar impacto real. Não basta parecer transformador; precisamos agir de maneira coerente com aquilo que dizemos defender."
+        },
+        {
+          "type": "p",
+          "text": "🔥 Viver este Ideal significa:"
+        },
+        {
+          "type": "p",
+          "text": "✓ Ser transparente sobre objetivos, recursos, limites e resultados."
+        },
+        {
+          "type": "p",
+          "text": "✓ Não usar pessoas apenas como números, imagens ou histórias de divulgação."
+        },
+        {
+          "type": "p",
+          "text": "✓ Buscar qualidade e segurança nas experiências oferecidas."
+        },
+        {
+          "type": "p",
+          "text": "✓ Perguntar continuamente se aquilo que fazemos realmente ajuda a criar um caminho positivo de transformação."
+        }
+      ]
+    },
+    {
+      "number": 33,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 7"
+        },
+        {
+          "type": "p",
+          "text": "As Virtudes do Ajudar"
+        },
+        {
+          "type": "p",
+          "text": "Quem precisamos nos tornar para ajudar melhor?"
+        },
+        {
+          "type": "p",
+          "text": "“Valores apontam aquilo em que acreditamos. Virtudes são qualidades que precisamos cultivar para viver esses valores.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 7",
+      "title": "As Virtudes do Ajudar",
+      "subtitle": "Quem precisamos nos tornar para ajudar melhor?",
+      "quote": "“Valores apontam aquilo em que acreditamos. Virtudes são qualidades que precisamos cultivar para viver esses valores.”"
+    },
+    {
+      "number": 34,
+      "kind": "triad",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Virtudes não são ornamentos"
+        },
+        {
+          "type": "p",
+          "text": "São capacidades humanas praticadas no cotidiano."
+        },
+        {
+          "type": "p",
+          "text": "Ajudar não depende apenas de recursos ou conhecimento técnico. A forma como ajudamos é profundamente influenciada pelo tipo de pessoa e de cultura que cultivamos. Por isso, a filosofia Lumen Stellar organiza suas virtudes em três direções: aquelas que precisamos para ajudar o próximo, para ajudar a construir uma sociedade melhor e para ajudar a nós mesmos."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "O PRÓXIMO Empatia, respeito, humildade, generosidade e paciência.",
+              "A SOCIEDADE Solidariedade, cooperação, responsabilidade, equidade e integridade.",
+              "A NÓS MESMOS Autoconhecimento, coragem, curiosidade, resiliência e equilíbrio."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "“Virtudes não se provam pelo que dizemos valorizar, mas pelas escolhas que repetimos quando ninguém está olhando.”"
+        }
+      ]
+    },
+    {
+      "number": 35,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Virtudes para Ajudar o Próximo"
+        },
+        {
+          "type": "p",
+          "text": "A ajuda começa na relação com outra pessoa. Para que ela seja verdadeiramente útil, precisamos cultivar qualidades que nos impeçam de transformar apoio em controle ou boa intenção em imposição."
+        },
+        {
+          "type": "p",
+          "text": "✦ Empatia"
+        },
+        {
+          "type": "p",
+          "text": "Tentar compreender a realidade do outro antes de decidir o que fazer por ele."
+        },
+        {
+          "type": "p",
+          "text": "✦ Respeito"
+        },
+        {
+          "type": "p",
+          "text": "Reconhecer dignidade, escolhas, ritmo, identidade e autonomia de cada pessoa."
+        },
+        {
+          "type": "p",
+          "text": "✦ Humildade"
+        },
+        {
+          "type": "p",
+          "text": "Aceitar que não temos todas as respostas e que podemos aprender com quem pretendemos ajudar."
+        },
+        {
+          "type": "p",
+          "text": "✦ Generosidade"
+        },
+        {
+          "type": "p",
+          "text": "Compartilhar tempo, conhecimento, atenção, oportunidades e recursos quando isso pode abrir caminhos."
+        },
+        {
+          "type": "p",
+          "text": "✦ Paciência"
+        },
+        {
+          "type": "p",
+          "text": "Compreender que transformação raramente acontece no nosso ritmo e que cada estrela possui sua própria trajetória."
+        }
+      ]
+    },
+    {
+      "number": 36,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Virtudes para Ajudar a Sociedade"
+        },
+        {
+          "type": "p",
+          "text": "Construir algo maior do que nós exige olhar além da relação individual e aprender a agir como parte de uma comunidade interdependente."
+        },
+        {
+          "type": "p",
+          "text": "✦ Solidariedade"
+        },
+        {
+          "type": "p",
+          "text": "Reconhecer que problemas de outras pessoas também dizem respeito à sociedade que estamos construindo."
+        },
+        {
+          "type": "p",
+          "text": "✦ Cooperação"
+        },
+        {
+          "type": "p",
+          "text": "Somar forças, conhecimentos e recursos sem transformar parceria em disputa por protagonismo."
+        },
+        {
+          "type": "p",
+          "text": "✦ Responsabilidade"
+        },
+        {
+          "type": "p",
+          "text": "Entender que decisões e recursos produzem consequências e devem ser tratados com compromisso."
+        },
+        {
+          "type": "p",
+          "text": "✦ Equidade"
+        },
+        {
+          "type": "p",
+          "text": "Reconhecer que pessoas partem de condições diferentes e que justiça muitas vezes exige reduzir barreiras específicas."
+        },
+        {
+          "type": "p",
+          "text": "✦ Integridade"
+        },
+        {
+          "type": "p",
+          "text": "Manter coerência entre propósito, discurso e prática, mesmo quando seria mais fácil escolher outro caminho."
+        }
+      ]
+    },
+    {
+      "number": 37,
+      "kind": "content",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Virtudes para Ajudar a Nós Mesmos"
+        },
+        {
+          "type": "p",
+          "text": "Para continuar ajudando, precisamos continuar crescendo. A nossa luz também necessita de cuidado, aprendizado e renovação."
+        },
+        {
+          "type": "p",
+          "text": "✦ Autoconhecimento"
+        },
+        {
+          "type": "p",
+          "text": "Descobrir forças, limitações, valores, interesses e propósito para agir com mais consciência."
+        },
+        {
+          "type": "p",
+          "text": "✦ Coragem"
+        },
+        {
+          "type": "p",
+          "text": "Tentar, pedir ajuda, reconhecer erros, enfrentar desafios e começar novamente quando necessário."
+        },
+        {
+          "type": "p",
+          "text": "✦ Curiosidade"
+        },
+        {
+          "type": "p",
+          "text": "Continuar aprendendo, fazendo perguntas e permitindo que novas ideias transformem nossa forma de enxergar o mundo."
+        },
+        {
+          "type": "p",
+          "text": "✦ Resiliência"
+        },
+        {
+          "type": "p",
+          "text": "Cair, aprender, levantar e continuar sem confundir dificuldade com impossibilidade."
+        },
+        {
+          "type": "p",
+          "text": "✦ Equilíbrio"
+        },
+        {
+          "type": "p",
+          "text": "Cuidar de limites, relações e energia para que a vontade de ajudar possa permanecer sustentável ao longo do tempo."
+        }
+      ]
+    },
+    {
+      "number": 38,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 8"
+        },
+        {
+          "type": "p",
+          "text": "Propósito, Missão, Visão e Valores"
+        },
+        {
+          "type": "p",
+          "text": "A direção comum para todas as constelações"
+        },
+        {
+          "type": "p",
+          "text": "“Diferentes programas podem seguir caminhos diferentes e ainda assim compartilhar o mesmo céu.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 8",
+      "title": "Propósito, Missão, Visão e Valores",
+      "subtitle": "A direção comum para todas as constelações",
+      "quote": "“Diferentes programas podem seguir caminhos diferentes e ainda assim compartilhar o mesmo céu.”"
+    },
+    {
+      "number": 39,
+      "kind": "statement",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Nosso Propósito"
+        },
+        {
+          "type": "p",
+          "text": "“Ajudando a Transformar o Presente dos Criadores do Nosso Futuro.”"
+        },
+        {
+          "type": "p",
+          "text": "Nosso propósito é ajudar crianças e jovens a encontrar oportunidades, experiências, conhecimento, apoio e conexões capazes de fortalecer seu presente e ampliar aquilo que poderão construir no futuro. Queremos ajudar a transformar trajetórias sem tomar delas o protagonismo."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "✦ A forma curta Ajudar Hoje para Transformar o Amanhã."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "✦ O que isso significa?"
+        },
+        {
+          "type": "p",
+          "text": "★ Ajudar hoje — agir sobre oportunidades e barreiras que existem no presente."
+        },
+        {
+          "type": "p",
+          "text": "★ Transformar — buscar mudanças positivas concretas, e não apenas realizar atividades."
+        },
+        {
+          "type": "p",
+          "text": "★ Criadores — reconhecer crianças e jovens como protagonistas, makers e futuros agentes de transformação."
+        },
+        {
+          "type": "p",
+          "text": "★ Amanhã — entender que a sociedade futura começa a ser construída pelas experiências de hoje."
+        }
+      ]
+    },
+    {
+      "number": 40,
+      "kind": "statement",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Missão"
+        },
+        {
+          "type": "p",
+          "text": "“Ajudar a transformar o presente de crianças e jovens por meio da criação, estruturação e viabilização de programas, projetos e oportunidades que despertem potencial, ampliem possibilidades e fortaleçam sua capacidade de construir o próprio futuro.”"
+        },
+        {
+          "type": "p",
+          "text": "A missão traduz aquilo que fazemos agora. Ela permite que o Instituto atue por diferentes caminhos, social, educacional, esportivo, tecnológico, científico, artístico ou cultural, desde que essas ferramentas estejam conectadas a uma transformação humana e social coerente com nosso propósito."
+        }
+      ]
+    },
+    {
+      "number": 41,
+      "kind": "statement",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Visão"
+        },
+        {
+          "type": "p",
+          "text": "“Ajudar a construir um futuro iluminado por crianças e jovens conscientes de seu potencial, conectados a oportunidades e preparados para criar, transformar e contribuir positivamente para a sociedade.”"
+        },
+        {
+          "type": "p",
+          "text": "A visão não descreve um tamanho de organização. Descreve um tipo de futuro."
+        },
+        {
+          "type": "p",
+          "text": "Queremos ver mais estrelas descobrindo sua luz, mais constelações criando oportunidades e mais pessoas capazes de compartilhar aquilo que receberam."
+        }
+      ]
+    },
+    {
+      "number": 42,
+      "kind": "statement",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Valores do Ajudar"
+        },
+        {
+          "type": "p",
+          "text": "Todos começam com a mesma pergunta: o que significa AJUDAR?"
+        },
+        {
+          "type": "p",
+          "text": "✦ Ajudar é acreditar no potencial."
+        },
+        {
+          "type": "p",
+          "text": "Vemos pessoas não apenas pelo lugar em que estão, mas pela capacidade que podem desenvolver."
+        },
+        {
+          "type": "p",
+          "text": "✦ Ajudar é abrir caminhos."
+        },
+        {
+          "type": "p",
+          "text": "Buscamos transformar barreiras em possibilidades e aproximar oportunidades de quem precisa delas."
+        },
+        {
+          "type": "p",
+          "text": "✦ Ajudar é respeitar caminhos."
+        },
+        {
+          "type": "p",
+          "text": "Apoiar não significa controlar. Cada pessoa deve poder ser protagonista da própria trajetória."
+        },
+        {
+          "type": "p",
+          "text": "✦ Ajudar é compartilhar."
+        },
+        {
+          "type": "p",
+          "text": "Conhecimento, experiência, tempo, recursos e oportunidades ganham valor quando podem iluminar outras pessoas."
+        },
+        {
+          "type": "p",
+          "text": "✦ Ajudar é construir juntos."
+        },
+        {
+          "type": "p",
+          "text": "Transformações duradouras surgem quando diferentes forças se conectam em torno de um propósito comum."
+        },
+        {
+          "type": "p",
+          "text": "✦ Ajudar é continuar aprendendo."
+        },
+        {
+          "type": "p",
+          "text": "Para transformar alguma coisa ao nosso redor, precisamos aceitar também nossa própria transformação."
+        },
+        {
+          "type": "p",
+          "text": "✦ Ajudar é cuidar de si."
+        },
+        {
+          "type": "p",
+          "text": "Preservamos nossa própria luz para continuar compartilhando-a."
+        },
+        {
+          "type": "p",
+          "text": "✦ Ajudar é agir com propósito e integridade."
+        },
+        {
+          "type": "p",
+          "text": "Boa intenção precisa encontrar responsabilidade, ética, transparência e compromisso com impacto real."
+        }
+      ]
+    },
+    {
+      "number": 43,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 9"
+        },
+        {
+          "type": "p",
+          "text": "Como Ajudamos a Transformar"
+        },
+        {
+          "type": "p",
+          "text": "Transformar boa intenção ao impacto real"
+        },
+        {
+          "type": "p",
+          "text": "“A transformação precisa encontrar caminhos concretos para acontecer.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 9",
+      "title": "Como Ajudamos a Transformar",
+      "subtitle": "Transformar boa intenção ao impacto real",
+      "quote": "“A transformação precisa encontrar caminhos concretos para acontecer.”"
+    },
+    {
+      "number": 44,
+      "kind": "diagram",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ O Movimento do Instituto"
+        },
+        {
+          "type": "p",
+          "text": "O Instituto funciona como um lugar de conexão e viabilização. Em alguns momentos será idealizador. Em outros será realizador, articulador, parceiro, apoiador ou ponte. O papel pode mudar; a pergunta permanece: o que precisa ser conectado para que essa transformação se torne possível?"
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "IDENTIFICAR — necessidades, potenciais e boas ideias"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "CONECTAR — pessoas, parceiros, conhecimento e oportunidades"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "ESTRUTURAR — programas, projetos, jornadas e responsabilidades"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "VIABILIZAR — recursos, espaços, equipes, acesso e articulação"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "DESENVOLVER — experiências significativas e de qualidade"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "ACOMPANHAR — aprendizado, resultados, impacto e continuidade"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "MULTIPLICAR — transformar quem foi ajudado em alguém capaz de ajudar também"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 45,
+      "kind": "taxonomy",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Programas, Projetos e Ações"
+        },
+        {
+          "type": "p",
+          "text": "Uma linguagem simples para organizar transformação sem perder significado."
+        },
+        {
+          "type": "p",
+          "text": "✦ Programa — a Constelação"
+        },
+        {
+          "type": "p",
+          "text": "É uma estratégia permanente de impacto. Possui identidade, propósito, público, princípios e diferentes formas de atuação ao longo do tempo."
+        },
+        {
+          "type": "p",
+          "text": "✦ Projeto — um Caminho dentro da Constelação"
+        },
+        {
+          "type": "p",
+          "text": "É uma iniciativa delimitada, com objetivo, período, recursos e resultados esperados. Um mesmo programa pode gerar muitos projetos diferentes."
+        },
+        {
+          "type": "p",
+          "text": "✦ Ação — o Momento Concreto"
+        },
+        {
+          "type": "p",
+          "text": "É aquilo que acontece de fato: uma oficina, encontro, treinamento, competição, apresentação, mentoria, visita, evento, formação ou experiência."
+        },
+        {
+          "type": "p",
+          "text": "✦ Impacto — a Luz que Permanece"
+        },
+        {
+          "type": "p",
+          "text": "É aquilo que mudou ou se tornou possível depois da ação: capacidades, vínculos, oportunidades, escolhas, confiança, conhecimentos, perspectivas ou novas trajetórias."
+        },
+        {
+          "type": "p",
+          "text": "“Não queremos confundir movimento com transformação. Fazer muito só importa quando aquilo que fazemos ajuda alguma coisa importante a mudar.”"
+        }
+      ]
+    },
+    {
+      "number": 46,
+      "kind": "triad",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Áreas são Dimensões. Programas são Constelações."
+        },
+        {
+          "type": "p",
+          "text": "Uma iniciativa pode pertencer a mais de um campo de transformação."
+        },
+        {
+          "type": "p",
+          "text": "O Instituto atua em dimensões sociais, educacionais, esportivas, tecnológicas, científicas, artísticas e culturais. Essas dimensões ajudam a organizar competências, mas não precisam aprisionar programas em caixas isoladas."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "SOCIAL Acesso, inclusão, convivência, proteção de oportunidades, protagonismo e desenvolvimento humano.",
+              "EDUCACIONAL Aprendizagem, conhecimento, ciência, tecnologia, criatividade, cultura maker e formação.",
+              "ESPORTIVO Formação, disciplina, equipes, estratégia, desempenho, participação e competições."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "Arte e cultura podem atravessar essas mesmas constelações, assim como ciência e tecnologia. A pergunta principal não é “em qual caixa este programa cabe?”, mas “que dimensões precisamos conectar para produzir a transformação que buscamos?”."
+        }
+      ]
+    },
+    {
+      "number": 47,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 10"
+        },
+        {
+          "type": "p",
+          "text": "Constelações em Movimento"
+        },
+        {
+          "type": "p",
+          "text": "Como a filosofia pode ganhar formas diferentes sem perder sua essência"
+        },
+        {
+          "type": "p",
+          "text": "“Cada constelação tem sua identidade. Todas compartilham o mesmo propósito de ajudar a transformar.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 10",
+      "title": "Constelações em Movimento",
+      "subtitle": "Como a filosofia pode ganhar formas diferentes sem perder sua essência",
+      "quote": "“Cada constelação tem sua identidade. Todas compartilham o mesmo propósito de ajudar a transformar.”"
+    },
+    {
+      "number": 48,
+      "kind": "constellation",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Constelações que ainda não conhecemos"
+        },
+        {
+          "type": "p",
+          "text": "A filosofia precisa permitir que o Instituto continue descobrindo novos caminhos."
+        },
+        {
+          "type": "p",
+          "text": "O nosso céu não termina nas constelações que já conseguimos enxergar. Novos programas podem nascer da arte, da cultura, do esporte, da ciência, da tecnologia, da comunicação, da formação profissional ou de encontros entre essas áreas. Há constelações que este céu ainda nem conhece."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "✦ A regra para uma nova constelação. Ela deve conseguir explicar, com clareza, quem queremos AJUDAR, o que queremos ajudar a TRANSFORMAR no presente, que potencial queremos despertar, como o participante poderá ser protagonista e que impacto esperamos que essa transformação produza no futuro."
+            ]
+          ]
+        },
+        {
+          "type": "p",
+          "text": "★ Quem queremos ajudar?"
+        },
+        {
+          "type": "p",
+          "text": "★ O que queremos ajudar a transformar no presente?"
+        },
+        {
+          "type": "p",
+          "text": "★ Que potencial queremos ajudar a despertar?"
+        },
+        {
+          "type": "p",
+          "text": "★ Como a pessoa poderá se tornar protagonista?"
+        },
+        {
+          "type": "p",
+          "text": "★ Que impacto desejamos que permaneça no futuro?"
+        }
+      ]
+    },
+    {
+      "number": 49,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 11"
+        },
+        {
+          "type": "p",
+          "text": "A Jornada de uma Estrela"
+        },
+        {
+          "type": "p",
+          "text": "Do primeiro encontro com uma oportunidade ao protagonismo"
+        },
+        {
+          "type": "p",
+          "text": "“O maior resultado de uma oportunidade é quando ela ajuda alguém a descobrir novas possibilidades para si.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 11",
+      "title": "A Jornada de uma Estrela",
+      "subtitle": "Do primeiro encontro com uma oportunidade ao protagonismo",
+      "quote": "“O maior resultado de uma oportunidade é quando ela ajuda alguém a descobrir novas possibilidades para si.”"
+    },
+    {
+      "number": 50,
+      "kind": "diagram",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ Uma Jornada Possível"
+        },
+        {
+          "type": "p",
+          "text": "Nenhuma estrela precisa seguir exatamente esta rota; ela representa um horizonte de desenvolvimento."
+        },
+        {
+          "type": "table",
+          "rows": [
+            [
+              "OPORTUNIDADE — encontrar uma porta de entrada"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "PERTENCIMENTO — sentir que existe um lugar onde posso participar"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "DESCOBERTA — perceber interesses, capacidades e curiosidades"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "APRENDIZADO — adquirir conhecimentos e habilidades"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "DESAFIO — enfrentar problemas reais e sair da zona de conforto"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "PERSISTÊNCIA — aprender com erros, frustrações e tentativas"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "AUTONOMIA — tomar decisões e assumir responsabilidade"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "PROTAGONISMO — criar, liderar, apresentar, competir, ensinar ou empreender"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "COMPARTILHAMENTO — usar experiência para ajudar outras pessoas"
+            ],
+            [
+              "↓"
+            ],
+            [
+              "FUTURO — carregar essas capacidades para novos caminhos da vida"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "number": 51,
+      "kind": "callout",
+      "items": [
+        {
+          "type": "p",
+          "text": "✨ Me Ajude a Descobrir Minha Força"
+        },
+        {
+          "type": "p",
+          "text": "A transformação mais poderosa é aquela que a própria pessoa reconhece como sua."
+        },
+        {
+          "type": "p",
+          "text": "Há uma diferença entre dizer a alguém que ela é capaz e criar uma experiência na qual ela própria consiga descobrir isso. A filosofia do Instituto prefere a segunda possibilidade. Queremos que crianças e jovens possam tentar coisas difíceis, aprender algo que parecia distante, construir algo com as próprias mãos, cooperar com outras pessoas e olhar para trás reconhecendo seu próprio crescimento."
+        },
+        {
+          "type": "p",
+          "text": "“Me ajude a descobrir a minha força.”"
+        },
+        {
+          "type": "p",
+          "text": "Essa frase resume uma relação saudável de ajuda. A força não é do Instituto. Não é do mentor. Não é do programa. Ela pertence à própria pessoa. Nosso papel é ajudar a criar condições para que possa ser reconhecida, desenvolvida e colocada em movimento."
+        }
+      ]
+    },
+    {
+      "number": 52,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 12"
+        },
+        {
+          "type": "p",
+          "text": "Seja Luz"
+        },
+        {
+          "type": "p",
+          "text": "O conhecimento é como a luz ele não se apaga quando compartilhado, apenas se multiplica."
+        },
+        {
+          "type": "p",
+          "text": "“Para ajudar outras estrelas a brilhar, precisamos aprender a compartilhar nossa própria luz.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 12",
+      "title": "Seja Luz",
+      "subtitle": "O conhecimento é como a luz ele não se apaga quando compartilhado, apenas se multiplica.",
+      "quote": "“Para ajudar outras estrelas a brilhar, precisamos aprender a compartilhar nossa própria luz.”"
+    },
+    {
+      "number": 53,
+      "kind": "art",
+      "items": [
+        {
+          "type": "p",
+          "text": "🌟 Quem Ajuda a Iluminar Este Céu?"
+        },
+        {
+          "type": "p",
+          "text": "Lumen Stellar é uma filosofia para todos que participam da construção do Instituto: jovens, educadores, voluntários, dirigentes, colaboradores, parceiros, famílias, empresas, escolas, universidades, apoiadores e comunidades."
+        },
+        {
+          "type": "p",
+          "text": "Cada pessoa pode contribuir com uma luz diferente. Algumas aproximam conhecimento. Outras criam oportunidades. Algumas ensinam. Outras organizam. Há quem consiga recursos, quem abra espaços, quem escute, quem crie tecnologia, quem treine uma equipe, quem conte histórias, quem conecte pessoas e quem simplesmente esteja presente quando alguém precisa."
+        },
+        {
+          "type": "p",
+          "text": "“Cada luz tem um propósito. Nenhuma precisa brilhar da mesma forma para fazer diferença.”"
+        }
+      ],
+      "art": "assets/star-compass.svg"
+    },
+    {
+      "number": 54,
+      "kind": "callout",
+      "items": [
+        {
+          "type": "p",
+          "text": "🌟 Seja Luz"
+        },
+        {
+          "type": "p",
+          "text": "Um chamado, não um título."
+        },
+        {
+          "type": "p",
+          "text": "“Seja Luz” é o chamado cultural do Instituto. Não significa ser perfeito, ter todas as respostas ou assumir o papel de herói. Significa procurar usar aquilo que temos, conhecimento, experiência, influência, tempo, criatividade, recursos ou presença, para ajudar a abrir caminhos."
+        },
+        {
+          "type": "p",
+          "text": "✦ Seja luz quando puder ensinar."
+        },
+        {
+          "type": "p",
+          "text": "✦ Seja luz quando puder escutar."
+        },
+        {
+          "type": "p",
+          "text": "✦ Seja luz quando puder conectar."
+        },
+        {
+          "type": "p",
+          "text": "✦ Seja luz quando puder abrir uma oportunidade."
+        },
+        {
+          "type": "p",
+          "text": "✦ Seja luz quando puder acreditar em alguém que ainda está aprendendo a acreditar em si."
+        },
+        {
+          "type": "p",
+          "text": "✦ Seja luz quando puder reconhecer um erro e mudar."
+        },
+        {
+          "type": "p",
+          "text": "✦ Seja luz quando puder pedir ajuda para não se apagar."
+        },
+        {
+          "type": "p",
+          "text": "✦ Seja luz quando puder compartilhar com outros aquilo que um dia alguém compartilhou com você."
+        },
+        {
+          "type": "p",
+          "text": "“A luz não se torna menor quando é compartilhada. Ela encontra novos lugares para continuar.”"
+        }
+      ]
+    },
+    {
+      "number": 55,
+      "kind": "culture",
+      "items": [
+        {
+          "type": "p",
+          "text": "✦ A Cultura que Queremos Construir"
+        },
+        {
+          "type": "p",
+          "text": "Uma organização também educa pela forma como trata pessoas e toma decisões."
+        },
+        {
+          "type": "p",
+          "text": "★ Potencial antes do rótulo — enxergamos pessoas como trajetórias em construção."
+        },
+        {
+          "type": "p",
+          "text": "★ Jornada antes da obsessão pelo resultado — conquistas importam, mas o caminho também forma."
+        },
+        {
+          "type": "p",
+          "text": "★ Cooperação antes do protagonismo vazio — o impacto vale mais do que quem recebe o crédito."
+        },
+        {
+          "type": "p",
+          "text": "★ Aprendizado antes da defensividade — errar é oportunidade de rever, reparar e melhorar."
+        },
+        {
+          "type": "p",
+          "text": "★ Autonomia antes da dependência — a boa ajuda fortalece capacidade própria."
+        },
+        {
+          "type": "p",
+          "text": "★ Propósito antes da aparência — queremos impacto real, não apenas a imagem de impacto."
+        },
+        {
+          "type": "p",
+          "text": "★ Esperança com responsabilidade — acreditamos em possibilidades sem negar dificuldades concretas."
+        },
+        {
+          "type": "p",
+          "text": "★ Continuidade antes do gesto isolado — quando possível, buscamos caminhos que deixem capacidades e vínculos depois de nós."
+        }
+      ]
+    },
+    {
+      "number": 56,
+      "kind": "chapter",
+      "items": [
+        {
+          "type": "p",
+          "text": "CAPÍTULO 13"
+        },
+        {
+          "type": "p",
+          "text": "O Amanhã que Queremos Ajudar a Construir"
+        },
+        {
+          "type": "p",
+          "text": "O futuro não nos pertence. Mas podemos participar daquilo que o tornará possível."
+        },
+        {
+          "type": "p",
+          "text": "“O futuro será criado por pessoas que hoje ainda estão descobrindo quem podem se tornar.”"
+        }
+      ],
+      "chapterLabel": "CAPÍTULO 13",
+      "title": "O Amanhã que Queremos Ajudar a Construir",
+      "subtitle": "O futuro não nos pertence. Mas podemos participar daquilo que o tornará possível.",
+      "quote": "“O futuro será criado por pessoas que hoje ainda estão descobrindo quem podem se tornar.”"
+    },
+    {
+      "number": 57,
+      "kind": "vision",
+      "items": [
+        {
+          "type": "p",
+          "text": "🌌 Uma Sociedade Iluminada por Muitas Estrelas"
+        },
+        {
+          "type": "p",
+          "text": "O sucesso do Instituto não é ser indispensável. É ajudar a tornar mais pessoas capazes de seguir sem depender de nós."
+        },
+        {
+          "type": "p",
+          "text": "Sonhamos com uma sociedade em que mais crianças e jovens possam descobrir interesses, desenvolver capacidades, encontrar referências positivas, acessar experiências de qualidade e acreditar que seu lugar de origem não precisa determinar o limite de seus sonhos."
+        },
+        {
+          "type": "p",
+          "text": "Sonhamos com jovens que tenham coragem para criar, conhecimento para escolher, resiliência para continuar, empatia para compreender outras pessoas e propósito para usar aquilo que aprenderam de maneira positiva."
+        },
+        {
+          "type": "p",
+          "text": "Sonhamos com antigos participantes que se tornem mentores, profissionais, pesquisadores, empreendedores, artistas, atletas, educadores, líderes comunitários ou simplesmente cidadãos capazes de abrir novas portas para quem vem depois."
+        },
+        {
+          "type": "p",
+          "text": "“O maior legado de uma constelação é quando suas estrelas aprendem a criar novas luzes no mundo.”"
+        }
+      ]
+    },
+    {
+      "number": 58,
+      "kind": "quote",
+      "items": [
+        {
+          "type": "p",
+          "text": "✨ A Luz da Esperança"
+        },
+        {
+          "type": "p",
+          "text": "Cada transformação é pequena diante da imensidão do céu. E ainda assim nenhuma é irrelevante."
+        },
+        {
+          "type": "p",
+          "text": "Talvez não consigamos transformar todos os problemas. Talvez não consigamos alcançar todas as pessoas. Talvez algumas trajetórias sigam caminhos diferentes dos que imaginamos. A filosofia Lumen Stellar não exige a fantasia de que tudo pode ser resolvido."
+        },
+        {
+          "type": "p",
+          "text": "Ela exige algo mais concreto: diante daquilo que podemos alcançar, escolher ajudar. Quando uma oportunidade se abre, quando uma criança descobre uma capacidade, quando um jovem encontra um caminho, quando alguém aprende a levantar depois de uma queda, uma nova luz de esperança aparece."
+        },
+        {
+          "type": "p",
+          "text": "“Esperança não é esperar que milagres aconteçam. É continuar construindo possibilidades onde antes parecia haver apenas limites.”"
+        }
+      ]
+    },
+    {
+      "number": 59,
+      "kind": "manifesto",
+      "items": [
+        {
+          "type": "p",
+          "text": "🌟 Manifesto Lumen Stellar"
+        },
+        {
+          "type": "p",
+          "text": "O espírito que queremos levar conosco."
+        },
+        {
+          "type": "p",
+          "text": "Acreditamos que toda criança e todo jovem carrega dentro de si uma luz única."
+        },
+        {
+          "type": "p",
+          "text": "Acreditamos que realidades diferentes não deveriam significar ausência de sonhos ou de oportunidades."
+        },
+        {
+          "type": "p",
+          "text": "Acreditamos que conhecimento, esporte, ciência, tecnologia, arte, cultura, comunidade e propósito podem se tornar caminhos de transformação."
+        },
+        {
+          "type": "p",
+          "text": "Acreditamos que ajudar não é escolher o futuro de alguém. É ajudá-lo a descobrir que pode participar da construção desse futuro."
+        },
+        {
+          "type": "p",
+          "text": "Acreditamos na tentativa, no aprendizado, na persistência e na coragem de continuar."
+        },
+        {
+          "type": "p",
+          "text": "Acreditamos que ninguém transforma uma sociedade sozinho."
+        },
+        {
+          "type": "p",
+          "text": "Acreditamos em estrelas que se conectam, em constelações que criam caminhos e em pessoas que compartilham sua luz."
+        },
+        {
+          "type": "p",
+          "text": "Estamos aqui para ajudar."
+        },
+        {
+          "type": "p",
+          "text": "Ajudar a abrir caminhos. Ajudar a superar barreiras. Ajudar a descobrir potencial. Ajudar a transformar o presente."
+        },
+        {
+          "type": "p",
+          "text": "Porque aqueles que ajudamos hoje serão os criadores do amanhã."
+        },
+        {
+          "type": "p",
+          "text": "E quando suas luzes se conectarem, poderão iluminar muito além de si mesmas."
+        },
+        {
+          "type": "p",
+          "text": "Poderão iluminar o nosso futuro."
+        }
+      ]
+    },
+    {
+      "number": 60,
+      "kind": "closing",
+      "items": [
+        {
+          "type": "p",
+          "text": "LUMEN STELLAR"
+        },
+        {
+          "type": "p",
+          "text": "A Filosofia de Impacto do Instituto Ajuda Robótica"
+        },
+        {
+          "type": "p",
+          "text": "Ajudando a Transformar o Presente dos Criadores do Nosso Futuro."
+        },
+        {
+          "type": "p",
+          "text": "AJUDAR HOJE PARA TRANSFORMAR O AMANHÃ."
+        }
+      ]
+    }
+  ]
+}
